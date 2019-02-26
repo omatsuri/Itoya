@@ -1,0 +1,113 @@
+.post-type-archive-garally {
+    .garallyimg {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-position :center;
+        margin-bottom: 1rem;
+        @media screen and (min-width: 375px) {
+            height: 250px;
+        }
+        @media screen and (min-width: 425px) {
+            height: 270px;
+        }
+        @media screen and (min-width: 500px) {
+            height: 300px;
+        }
+        @media screen and (min-width: 650px) {
+            height: 330px;
+        }
+        @media screen and (min-width: 768px) {
+            height: 150px;
+        }
+        @media screen and (min-width: 1024px) {
+            height: 150px;
+        }
+        @media screen and (min-width: 1440px) {
+            height: 180px;
+        }
+        @media screen and (min-width: 1920px) {
+            height: 240px;
+        }
+        @media screen and (min-width: 2560px) {
+            height: 300px;
+        }
+    }
+    .garallys {
+        @media screen and (min-width: 1024px) {
+            padding: 0 10%;
+        }
+        &-container {
+            position: relative;
+            margin-bottom: 2rem;
+            box-shadow: 0 0 20px 5px #F2f2f2;
+        }
+        &-caption {
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            height: auto;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            padding: 1rem;
+            transition: .25s ease,color .25s ease;
+            &:hover {
+                opacity: 1;
+                background-color: rgba(0, 0, 0, 0.5);
+                transition: .25s ease,color .25s ease;
+            }
+            .pageHeading3 {
+                position: absolute;
+                text-align: center;
+                line-height: 250px;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin-bottom: 0;
+                @media screen and (min-width: 425px) {
+                    line-height: 300px;
+                }
+                @media screen and (min-width: 768px) {
+                    line-height: 200px;
+                }
+                @media screen and (min-width: 1920px) {
+                    line-height: 250px;
+                }
+                @media screen and (min-width: 2560px) {
+                    line-height: 300px;
+                }
+            }
+            a {
+                width: 100%;
+                height: 100%;
+                color: #fff;
+            }
+        }
+        &-worksList {
+            width: 100%;
+        }
+        &-garally {
+            position: relative;
+            margin-bottom: 4rem;
+            @media screen and (min-width: 768px) {
+                 width: 30.333%;
+                 float: left;
+                 margin: 0 1.5% 1.5%;
+            }
+        }
+        &-date {
+            margin-bottom: 1rem;
+        }
+        zoom: 1;
+        &:before,&:after{
+            content: "";
+            display: block;
+        }
+        &:after {
+            clear: both;
+        }
+    }
+}

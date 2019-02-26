@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*
+Theme Name: smfolio
+Author: kihamu
+Version: 1.0
+*/
+/*
+* base
+*/
+@import "base/setting";
+@import "base/default/mixin";
+@import "base/default/define";
+@import "base/default/reset";
+@import "base/util";
+@import "base/basic";
+
+/*
+* layout
+*/
+@import "layout/header";
+@import "layout/footer";
+@import "layout/contents";
+@import "layout/archive";
+
+/*
+* module
+*/
+@import "module/heading";
+
+/*
+* pages
+*/
+@import "index"; // front-page
+@import "about"; // page-about
+@import "service"; // page-about
+@import "works"; // archive-works
+@import "work"; // single-works
+@import "blog"; // index
+@import "blogchild"; // single
+@import "garally"; // archive-works
+@import "garallychild"; // single-works
+@import "contact"; // page-contact

@@ -1,0 +1,26 @@
+/*
+#overview
+heading
+
+*/
+
+/*
+#styleguide
+
+```
+<h2 class="pageHeading2">heading</h2>
+<h3 class="pageHeading3">heading</h3>
+```
+*/
+
+.pageHeading2 {
+    font-size: 3rem;
+    // margin-top: 15rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.pageHeading3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}

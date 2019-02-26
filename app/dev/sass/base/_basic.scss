@@ -1,0 +1,114 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+	min-height: 100%;
+	font-family: 'Abel',"游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+body {
+	font-size: 1.2rem;
+	letter-spacing: 0.2rem;
+	line-height: 1;
+	color: $sub2_color;
+}
+.wrapper{
+    max-width: $size_max;
+    min-width: 320px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container {
+	position: relative;
+	width: 90%;
+	margin: 0 5%;
+	@media screen and (min-width: 1024px) {
+		width: 80%;
+		top: 0;
+		left: 0;
+		// padding: 10rem 5% 0;
+		padding: 10rem 0;
+		margin-left: 200px;
+	}
+}
+
+.arrow {
+	position: relative;
+	display: inline-block;
+	padding: 0 0 0 16px;
+	color: $sub3_color;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.arrow::after,
+.arrow::before {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	content: "";
+	vertical-align: middle;
+}
+
+.activeBlur {
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    position: relative;
+    font-size: 13px;
+}
+
+.pagination span, .pagination a {
+    display: block;
+    width: auto;
+    margin: 4px;
+    padding: 8px;
+    border: 1px solid #000;
+    background-color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 16px;
+}
+
+/* ページ番号 */
+.pagination .pager{
+    width: 32px;
+}
+
+/* ホバー時 & 現在のページ */
+.pagination a:hover,
+.pagination .current  {
+    color: #fff;
+    border-color: #000;
+    background-color: #000;
+}
+
+/* 前へ */
+.pagination a.prev {
+    margin-right: 16px;
+}
+/* 次へ */
+.pagination a.next {
+    margin-left: 16px;
+}
+/* 最初へ */
+.pagination a.first {}
+/* 最後へ */
+.pagination a.last {}
+
+/* Page x / y */
+.pagination span.page_num {
+    display: none;
+}
