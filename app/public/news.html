@@ -16,17 +16,19 @@
               content="width=device-width, minimum-scale=1, maximum-scale=10,initial-scale=1.0">
         <meta property='base_url' content='./' id="base_url">
         <link rel="stylesheet" href="./css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto:900" rel="stylesheet">
 
         <!-- build:js js/init.min.js -->
         <script src="lib/modernizer/modernizr.js"></script>
         <!-- endbuild -->
     </head>
 
-        <body class="page-service">
+        <body class="page-news">
     <div class="wrapper">
         <header class="header">
-            <div class="header-logo"></div>
+            <div class="header-logo">
+                <object type="image/svg+xml" data="./images/logo-p.svg"></object>
+            </div>
             <div class="hamburgerContainer">
                 <div class="hamburger">
                     <div class="menuIcon">
@@ -40,7 +42,7 @@
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="campany.html">Company</a></li>
+                        <li><a href="company.html">Company</a></li>
                         <li><a href="service.html">Service</a></li>
                         <li><a href="news.html">News</a></li>
                         <li><a href="recruit.html">Recruit</a></li>
@@ -51,42 +53,40 @@
     </div>
 
             <!-- start contents -->
-            <div class="contents">
+            <main class="contents">
                 <div class="contents-inner">
-                    <article class="">
-                        <div class="pageHeading">
-                            <h1>News</h1>
-                        </div>
-                        <p class="breadcrumbs">Home - News</p>
-                        <section class="serviceContents">
-                            <h2>お知らせ一覧</h2>
-                            <ul>
-                                <li>
-                                    <p>2019.01.31</p>
-                                    <p>ニュースタイトル</p>
-                                </li>
-                                <li>
-                                    <p>2019.01.31</p>
-                                    <p>ニュースタイトル</p>
-                                </li>
-                                <li>
-                                    <p>2019.01.31</p>
-                                    <p>ニュースタイトル</p>
-                                </li>
-                                <li>
-                                    <p>2019.01.31</p>
-                                    <p>ニュースタイトル</p>
-                                </li>
-                                <li>
-                                    <p>2019.01.31</p>
-                                    <p>ニュースタイトル</p>
-                                </li>
-                            </ul>
-                        </section>
+                    <div class="pageHeading">
+                        <h1>News</h1>
+                    </div>
+                    <div class="breadcrumbs">Home - News</div>
+                    <section class="newsContents">
+                        <h2>お知らせ一覧</h2>
+                        <ul>
+                            <li>
+                                <time>2019.01.31</time>
+                                <h3>ニュースタイトル</h3><span class="arw"></span>
+                            </li>
+                            <li>
+                                <time>2019.01.31</time>
+                                <h3>ニュースタイトル</h3><span class="arw"></span>
+                            </li>
+                            <li>
+                                <time>2019.01.31</time>
+                                <h3>ニュースタイトル</h3><span class="arw"></span>
+                            </li>
+                            <li>
+                                <time>2019.01.31</time>
+                                <h3>ニュースタイトル</h3><span class="arw"></span>
+                            </li>
+                            <li>
+                                <time>2019.01.31</time>
+                                <h3>ニュースタイトル</h3><span class="arw"></span>
+                            </li>
 
-                    </article>
+                        </ul>
+                    </section>
                 </div>
-            </div>
+            </main>
             <!-- end contents -->
 
                         <footer class="footer">
@@ -94,14 +94,14 @@
                     <a href="#top" class="btnPageTop"></a>
                 </div>
                 <div class="footer-inner">
-                    <div class="footer-logo"></div>
+                    <object type="image/svg+xml" data="./images/logo-w.svg"></object>
                     <p class="copy">&copy; 2019 Itoya inc.</p>
                 </div>
             </footer>
         </div>
         <!-- end wrapper -->
 
-                    <script src="lib/jquery/dist/jquery.js"></script>
+                        <script src="lib/jquery/dist/jquery.js"></script>
         <script src="js/common.js"></script>
     </body>
 </html>

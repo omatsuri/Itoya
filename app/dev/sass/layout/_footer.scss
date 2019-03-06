@@ -1,5 +1,7 @@
 .footer {
     width: 100%;
+    color: #FFF;
+    background-color: #343434;
     @media screen and (min-width: 1024px) {
         width: 20%;
         position: fixed;
@@ -8,15 +10,39 @@
         bottom: 2rem;
         z-index: 1100;
     }
+
     &-inner {
-        height: 10rem;
-        margin: 0 auto;
         text-align: center;
+        object {
+            margin: 2rem 0;
+            width: 10rem;
+        }
         p {
-            line-height: 6rem;
+            padding-bottom: 2rem;
         }
         @media screen and (min-width: 1024px) {
             text-align: left;
+        }
+    }
+    .btnPageTop {
+        position: fixed;
+        right: 20px;
+        bottom: 120px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #411B75;
+        display: block;
+        filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.3));
+        z-index: 2;
+        &:after {
+            content: "";
+            display: block;
+            background: url("../images/pagetop.svg") no-repeat center center;
+            background-size: contain;
+            width: 20px;
+            height: 40px;
+            margin: 0 auto;
         }
     }
 }

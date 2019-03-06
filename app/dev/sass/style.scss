@@ -26,8 +26,18 @@ Version: 1.0
 * module
 */
 @import "module/heading";
+@import "module/button";
+@import "module/recruitfooter";
 
 /*
 * pages
 */
 @import "index"; // front-page
+@import "company"; // single-company
+@import "service"; // single-service
+@import "news"; // index
+@import "article"; // single
+@import "recruit-message"; // single-recruit-message
+@import "recruit-interview"; // single-recruit-interview
+@import "recruit-itoya12"; // single-recruit-itoya12
+@import "recruit-requirement"; // single-recruit-requirement

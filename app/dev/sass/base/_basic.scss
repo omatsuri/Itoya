@@ -4,7 +4,7 @@
 html{
 	font-size: 62.5%;
 	min-height: 100%;
-	font-family: "游ゴシック", YuGothic, 'Noto Sans JP', "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	font-family: 'Noto Sans JP',"游ゴシック", YuGothic,  "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
 }
 body {
 	font-size: 1.2rem;
@@ -111,4 +111,33 @@ body {
 /* Page x / y */
 .pagination span.page_num {
     display: none;
+}
+
+.breadcrumbs {
+	margin: 5px 3%;
+}
+
+
+.arw {
+	overflow: hidden;
+	position: absolute;
+	display: block;
+	width: 2rem;
+	height: 1rem;
+	top: 50%;
+	left: auto;
+	right: 2rem;
+	margin-left: 0;
+	margin-top: -.3rem;
+	&:after {
+		position: absolute;
+		content: "";
+		display: block;
+		overflow: hidden;
+		text-indent: -5260px;
+		width: 2rem;
+		height: 1rem;
+		background: url("../images/arrow.svg") no-repeat center center;
+		background-size: contain;
+	}
 }

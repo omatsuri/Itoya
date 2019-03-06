@@ -1,0 +1,160 @@
+.page-recruit-requirement {
+    .pageHeading {
+        width: 100%;
+        height: 150px;
+        background-color: #F8F7F3;
+        text-align: center;
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2.4rem;
+            line-height: 180px;
+            color: #411B75;
+        }
+    }
+
+    .personal {
+        background-color: #F3EFF8;
+        margin: 30px 0;
+        padding: 30px 0;
+
+        h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            line-height: 3;
+        }
+
+        p {
+            margin: 0 3%;
+        }
+
+        .personalBoxes {
+            margin: 0 3%;
+        }
+
+        .personalBox {
+            padding: 20px 0;
+            margin: 20px 0;
+            background-color: #fff;
+
+            &-image {
+                width: 50px;
+                height: 50px;
+                margin: 20px auto;
+                background-color: #eee;
+            }
+
+            h3 {
+                text-align: center;
+            }
+        }
+    }
+
+    .jobList {
+        h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            line-height: 3;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 1.6rem;
+            font-weight: bold;
+            line-height: 3;
+            color: #411B75;
+            margin-bottom: 20px;
+
+            span {
+                padding-bottom: 5px;
+                border-bottom: 2px solid #411B75;
+            }
+        }
+
+        .accordion {
+            margin: 0 3% 20px;
+
+            h4 {
+                background-color: #F3EFF8;
+                line-height: 1.6;
+            }
+
+            &-heading {
+                position: relative;
+                padding: 20px 44px 20px 10px;
+                border: 1px solid  #411B75;
+            }
+
+            &-mark {
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                z-index: 0;
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                text-align: center;
+                background: #411B75;
+                color: #fff;
+                border-radius: 50%;
+                cursor: pointer;
+                overflow: hidden;
+                font-size: 20px;
+                transform: translateY(-50%);
+                transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+
+                &:before {
+                    content: "+";
+                    position: absolute;
+                    left: 7px;
+                    // right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+
+            &-body {
+                max-height: 0;
+                opacity: 0;
+                border: 1px solid  #411B75;
+            }
+
+            &-table-left {
+                vertical-align: middle;
+                width: 18%;
+                background-color: #F3EFF8;
+                padding: 23px 30px;
+                font-weight: 700;
+                line-height: 2;
+                width: 40%;
+                padding: 12px 15px;
+            }
+
+            &-table-right {
+                width: 82%;
+                text-align: left;
+                padding: 23px 40px;
+                font-weight: 400;
+                line-height: 2;
+                letter-spacing: -0.07em;
+                width: 60%;
+                padding: 12px 20px;
+            }
+        }
+
+        .is-open {
+            .accordion-body {
+                max-height: 9999px;
+                opacity: 1;
+            }
+
+            .accordion-mark:before {
+                content: "-";
+                font-size: 30px;
+                margin-top: -3px;
+            }
+        }
+    }
+}

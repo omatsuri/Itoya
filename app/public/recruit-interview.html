@@ -1,6 +1,57 @@
-<% var pageClass = "page-recruit-interview"; %>
-    <% include layout/_head %>
-        <% include layout/_header %>
+
+    <!DOCTYPE html>
+<!--[if lt IE 9]>
+<html lang="ja" class="no-js lt-ie9" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="ja" class="no-js" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
+
+    <head>
+        <meta charset="UTF-8">
+        <title>伊藤屋</title>
+        <meta name="description" content="伊藤屋の公式ホームページです">
+        <meta name="keywords" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, minimum-scale=1, maximum-scale=10,initial-scale=1.0">
+        <meta property='base_url' content='./' id="base_url">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto:900" rel="stylesheet">
+
+        <!-- build:js js/init.min.js -->
+        <script src="lib/modernizer/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+
+        <body class="page-recruit-interview">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-logo">
+                <object type="image/svg+xml" data="./images/logo-p.svg"></object>
+            </div>
+            <div class="hamburgerContainer">
+                <div class="hamburger">
+                    <div class="menuIcon">
+                        <span class="border border1"></span>
+                        <span class="border border2"></span>
+                        <span class="border border3"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="grobalNav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="service.html">Service</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="recruit.html">Recruit</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+
             <!-- start contents -->
             <main class="contents">
                 <div class="contents-inner">
@@ -89,5 +140,19 @@
                 </div>
             </main>
             <!-- end contents -->
-            <% include layout/_footer %>
-                <% include layout/_script %>
+                        <footer class="footer">
+                <div class="pagetop js-pagetop is-pagetop-show">
+                    <a href="#top" class="btnPageTop"></a>
+                </div>
+                <div class="footer-inner">
+                    <object type="image/svg+xml" data="./images/logo-w.svg"></object>
+                    <p class="copy">&copy; 2019 Itoya inc.</p>
+                </div>
+            </footer>
+        </div>
+        <!-- end wrapper -->
+
+                        <script src="lib/jquery/dist/jquery.js"></script>
+        <script src="js/common.js"></script>
+    </body>
+</html>

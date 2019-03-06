@@ -1,0 +1,30 @@
+.recruitFooter {
+    margin: 0 3% 60px;
+    &-title {
+        margin: 50px 0 10px 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+
+    nav {
+        border-top: 1px solid #411B75;
+        border-bottom: 1px solid #411B75;
+        ul {
+            margin: 0 20px;
+            li {
+                position: relative;
+                a {
+                    margin-left: 20px;
+                    line-height: 50px;
+                    display: block;
+                }
+
+            }
+            li:not(:last-child) {
+                border-bottom: 1px solid #bbb;
+            }
+        }
+    }
+
+}
