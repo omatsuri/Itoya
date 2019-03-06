@@ -1483,20 +1483,29 @@ heading
     font-weight: bold;
     line-height: 3; }
   .page-recruit-requirement .personal p {
-    margin: 0 3%; }
+    margin: 0 3%;
+    line-height: 1.3;
+    text-align: center;
+    text-decoration: underline; }
   .page-recruit-requirement .personal .personalBoxes {
     margin: 0 3%; }
   .page-recruit-requirement .personal .personalBox {
-    padding: 20px 0;
+    position: relative;
+    height: 70px;
+    padding: 10px 0;
     margin: 20px 0;
     background-color: #fff; }
-    .page-recruit-requirement .personal .personalBox-image {
-      width: 50px;
-      height: 50px;
-      margin: 20px auto;
-      background-color: #eee; }
     .page-recruit-requirement .personal .personalBox h3 {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+      line-height: 1.3;
       text-align: center; }
+      .page-recruit-requirement .personal .personalBox h3 span {
+        display: block;
+        margin-bottom: 5px; }
 
 .page-recruit-requirement .jobList h2 {
   text-align: center;
@@ -1525,7 +1534,8 @@ heading
   .page-recruit-requirement .jobList .accordion-heading {
     position: relative;
     padding: 20px 44px 20px 10px;
-    border: 1px solid  #411B75; }
+    border: 1px solid #411B75;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out; }
   .page-recruit-requirement .jobList .accordion-mark {
     position: absolute;
     right: 10px;
@@ -1553,7 +1563,11 @@ heading
     max-height: 0;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    border: 1px solid  #411B75; }
+    overflow: hidden;
+    border: 1px solid #411B75;
+    transition: 0.3s ease-in-out, color 0.3s ease-in-out; }
+  .page-recruit-requirement .jobList .accordion .accordion-table-row {
+    border-bottom: 1px solid #F3EFF8; }
   .page-recruit-requirement .jobList .accordion-table-left {
     vertical-align: middle;
     width: 18%;
@@ -1573,12 +1587,20 @@ heading
     width: 60%;
     padding: 12px 20px; }
 
+.page-recruit-requirement .jobList .is-open .accordion-heading {
+  background-color: #411B75;
+  color: #fff; }
+
 .page-recruit-requirement .jobList .is-open .accordion-body {
   max-height: 9999px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
 
+.page-recruit-requirement .jobList .is-open .accordion-mark {
+  background-color: #fff; }
+
 .page-recruit-requirement .jobList .is-open .accordion-mark:before {
   content: "-";
   font-size: 30px;
-  margin-top: -3px; }
+  margin-top: -3px;
+  color: #411B75; }
