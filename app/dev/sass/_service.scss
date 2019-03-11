@@ -4,78 +4,334 @@
         height: 150px;
         background-color: #F8F7F3;
         text-align: center;
+        @media screen and (min-width: 1024px) {
+            height: 300px;
+        }
+
         h1 {
             font-family: 'Roboto', sans-serif;
             font-size: 2.4rem;
             line-height: 180px;
             color: #411B75;
+            @media screen and (min-width: 1024px) {
+                line-height: 330px;
+                font-size: 5rem;
+            }
         }
     }
+
     .serviceContents {
+        max-width: 1440px;
         margin: 0 3%;
+        @media screen and (min-width: 1441px) {
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+
         h2 {
             text-align: center;
             font-size: 1.8rem;
             font-weight: bold;
-            margin: 30px 0 20px;
+            margin: 40px 0 30px;
+            @media screen and (min-width: 1024px) {
+                text-align: left;
+                margin: 0 0 20px;
+                font-size: 2rem;
+            }
+            @media screen and (min-width: 1440px) {
+                font-size: 3rem;
+            }
         }
+
         &-logo {
-            background-color: #eee;
             margin: 0 auto;
             width: 100px;
             height: 100px;
+            @media screen and (min-width: 1024px) {
+                margin: 0 0 10px;
+                width: 150px;
+                height: 150px;
+            }
         }
+
         &-text {
-            margin: 40px 0 20px;
-            line-height: 2rem;
+            margin: 40px 0 30px;
+            line-height: 2;
+            @media screen and (min-width: 1024px) {
+                margin: 0;
+            }
         }
+
         &-image01 {
             background-color: #eee;
             width: 100%;
             height: 150px;
+            @media screen and (min-width: 768px) {
+                height: 330px;
+            }
+            @media screen and (min-width: 1024px) {
+                height: 500px;
+            }
         }
+
         .imageWrap {
             @extend %clearfix;
         }
+
         &-image02 {
             background-color: #eee;
             width: 49%;
             margin-right: 2%;
             height: 150px;
             float: left;
+            @media screen and (min-width: 768px) {
+                height: 330px;
+            }
+            @media screen and (min-width: 1024px) {
+                height: 230px;
+            }
+            @media screen and (min-width: 1440px) {
+                height: 330px;
+            }
         }
+
         &-image03 {
             background-color: #eee;
             width: 49%;
             float: right;
             height: 150px;
+            @media screen and (min-width: 768px) {
+                height: 330px;
+            }
+            @media screen and (min-width: 1024px) {
+                height: 230px;
+            }
+            @media screen and (min-width: 1440px) {
+                height: 330px;
+            }
         }
+
         &-image04 {
             margin-top: 5px;
             background-color: #eee;
             width: 100%;
             height: 150px;
+            @media screen and (min-width: 768px) {
+                height: 330px;
+            }
+            @media screen and (min-width: 1024px) {
+                height: 400px;
+            }
+            @media screen and (min-width: 1440px) {
+                margin-top: 15px;
+                height: 500px;
+            }
+        }
+
+        .wrapper-top {
+            @extend %clearfix;
+            @media screen and (min-width: 1024px) {
+                margin-top: 80px;
+            }
+
+            &-left {
+                @media screen and (min-width: 1024px) {
+                    width: 30%;
+                    float: left;
+                    margin-right: 5%;
+                }
+            }
+
+            &-right {
+                @media screen and (min-width: 1024px) {
+                    width: 65%;
+                    float: right;
+                }
+            }
+        }
+
+        .wrapper-bottom {
+            @media screen and (min-width: 1024px) {
+                margin-top: 60px;
+            }
+
+            &-top {
+                @extend %clearfix;
+            }
+
+            &-left {
+                @media screen and (min-width: 1024px) {
+                    width: 47.5%;
+                    float: left;
+                    margin-right: 5%;
+                }
+            }
+
+            &-right {
+                @media screen and (min-width: 1024px) {
+                    width: 47.5%;
+                    float: right;
+                }
+            }
+        }
+
+        .doutor00 {
+            background-image: url("../images/doutor00.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .doutor01 {
+            background-image: url("../images/doutor01.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .doutor02 {
+            background-image: url("../images/doutor02.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .doutor03 {
+            background-image: url("../images/doutor03.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .doutor04 {
+            background-image: url("../images/doutor04.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .otoya00 {
+            background-image: url("../images/otoya00.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .otoya01 {
+            background-image: url("../images/otoya01.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .otoya02 {
+            background-image: url("../images/otoya02.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .otoya03 {
+            background-image: url("../images/otoya03.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .otoya04 {
+            background-image: url("../images/otoya04.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .pronto00 {
+            background-image: url("../images/pronto00.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .pronto01 {
+            background-image: url("../images/pronto01.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .pronto02 {
+            background-image: url("../images/pronto02.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .pronto03 {
+            background-image: url("../images/pronto03.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .pronto04 {
+            background-image: url("../images/pronto04.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .jittan00 {
+            background-image: url("../images/jittan00.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .jittan01 {
+            background-image: url("../images/jittan01.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .jittan02 {
+            background-image: url("../images/jittan02.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .jittan03 {
+            background-image: url("../images/jittan03.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .jittan04 {
+            background-image: url("../images/jittan04.jpg");
+            background-size: cover;
+            background-position: center;
         }
     }
+
     .serviceFooter {
         margin: 20px 0 60px;
         padding: 10px;
         background-color: #eee;
+        @extend %clearfix;
+
         &-nav {
+            @media screen and (min-width: 1441px) {
+                max-width: 1440px;
+                margin: 0 auto;
+            }
 
             li {
                 position: relative;
                 background-color: #fff;
                 margin: 10px 0;
+                @media screen and (min-width: 1024px) {
+                    width: 23%;
+                    margin: 20px 2.66% 20px 0;
+                    float: left;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+
                 a {
                     margin-left: 15px;
                     display: block;
                     line-height: 40px;
+                    @media screen and (min-width: 1024px) {
+                        font-size: 1.2rem;
+                        line-height: 60px;
+                    }
                 }
-
             }
-
         }
     }
-
 }

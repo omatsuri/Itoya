@@ -23,11 +23,14 @@
         <!-- endbuild -->
     </head>
 
-        <body class="page-service">
+        <body id="top" class="page-service">
     <div class="wrapper">
         <header class="header">
             <div class="header-logo">
                 <object type="image/svg+xml" data="./images/logo-p.svg"></object>
+            </div>
+            <div class="header-logo white">
+                <object type="image/svg+xml" data="./images/logo-w.svg"></object>
             </div>
             <div class="hamburgerContainer">
                 <div class="hamburger">
@@ -38,17 +41,61 @@
                     </div>
                 </div>
             </div>
-            <div class="grobalNav">
+            <div class="grobalNav-desktop">
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="company.html">Company</a></li>
-                        <li><a href="service.html">Service</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="recruit.html">Recruit</a></li>
+                        <li class="menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item"><a href="company.html">Company</a></li>
+                        <li class="menu-item">
+                            <a>Service</a>
+                            <ul>
+                                <li class="menu-item-in"><a href="service-doutor.html">ドトールコーヒーショップ</a></li>
+                                <li class="menu-item-in"><a href="service-otoya.html">大戸屋ごはん処</a></li>
+                                <li class="menu-item-in"><a href="service-pronto.html">PRONTO</a></li>
+                                <li class="menu-item-in"><a href="service-jittan.html">焼肉&BAR 十炭</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a href="news.html">News</a></li>
+                        <li class="menu-item">
+                            <a>Recruit</a>
+                            <ul>
+                                <li class="menu-item-in"><a href="recruit-message.html">採用メッセージ</a></li>
+                                <li class="menu-item-in"><a href="recruit-itoya12.html">伊藤屋を知る12のコト</a></li>
+                                <li class="menu-item-in"><a href="recruit-interview.html">社員インタビュー</a></li>
+                                <li class="menu-item-in"><a href="recruit-requirement.html">募集要項</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
             </div>
+            <div class="grobalNav">
+                <nav>
+                    <ul>
+                        <li class="menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item"><a href="company.html">Company</a></li>
+                        <li class="menu-item">
+                            Service
+                            <ul>
+                                <li class="menu-item-in"><a href="service-doutor.html">ドトールコーヒーショップ</a></li>
+                                <li class="menu-item-in"><a href="service-otoya.html">大戸屋ごはん処</a></li>
+                                <li class="menu-item-in"><a href="service-pronto.html">PRONTO</a></li>
+                                <li class="menu-item-in"><a href="service-jittan.html">焼肉&BAR 十炭</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a href="news.html">News</a></li>
+                        <li class="menu-item">
+                            Recruit
+                            <ul>
+                                <li class="menu-item-in"><a href="recruit-message.html">採用メッセージ</a></li>
+                                <li class="menu-item-in"><a href="recruit-itoya12.html">伊藤屋を知る12のコト</a></li>
+                                <li class="menu-item-in"><a href="recruit-interview.html">社員インタビュー</a></li>
+                                <li class="menu-item-in"><a href="recruit-requirement.html">募集要項</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="show"></div>
         </header>
     </div>
 
@@ -60,20 +107,36 @@
                     </div>
                     <div class="breadcrumbs">Home - Service</div>
                     <article class="serviceContents">
-                        <h2>PRONTO</h2>
-                        <div class="serviceContents-logo pronto00"></div>
-                        <section>
-                            <p class="serviceContents-text">プロントが目指しているのは、イタリアの「バール」、イギリスの「パブ」に見られるような、お客様との親密で活気あるお付き合いです。昼間はカフェとしての、夜はバーとしての顔を持ち、お客様にとってなじみの深い憩いの場を提供するための努力を重ねています。
-                            </p>
-                            <div class="serviceContents-image01 pronto01"></div>
-                            <p class="serviceContents-text">
-                                伊藤屋のプロントは社員、スタッフが分け隔てなく楽しく働く環境を創造しております。①スタッフ一人ひとりがやりがい、テーマを持ちながら、②お客様とのコミュニケーション会話、③感動を与える商品を提供すること、を通して成長出来る店舗作りがテーマです。
-                            </p>
-                            <div class="imageWrap">
-                                <div class="serviceContents-image02 pronto02"></div>
-                                <div class="serviceContents-image03 pronto03"></div>
+
+                        <section class="wrapper-top">
+                            <div class="wrapper-top-left">
+                                <h2>PRONTO</h2>
+                                <div class="serviceContents-logo pronto00"></div>
+                                <p class="serviceContents-text">プロントが目指しているのは、イタリアの「バール」、イギリスの「パブ」に見られるような、お客様との親密で活気あるお付き合いです。昼間はカフェとしての、夜はバーとしての顔を持ち、お客様にとってなじみの深い憩いの場を提供するための努力を重ねています。
+                                </p>
                             </div>
-                            <div class="serviceContents-image04 pronto04"></div>
+                            <div class="wrapper-top-right">
+                                <div class="serviceContents-image01 pronto01"></div>
+                            </div>
+                        </section>
+                        <section class="wrapper-bottom">
+                            <div class="wrapper-bottom-top">
+                                <div class="wrapper-bottom-right">
+                                    <p class="serviceContents-text">
+                                        伊藤屋のプロントは社員、スタッフが分け隔てなく楽しく働く環境を創造しております。①スタッフ一人ひとりがやりがい、テーマを持ちながら、②お客様とのコミュニケーション会話、③感動を与える商品を提供すること、を通して成長出来る店舗作りがテーマです。
+                                    </p>
+                                </div>
+
+                            <div class="wrapper-bottom-left">
+                                <div class="imageWrap">
+                                    <div class="serviceContents-image02 pronto02"></div>
+                                    <div class="serviceContents-image03 pronto03"></div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="wrapper-bottom-top">
+                                <div class="serviceContents-image04 pronto04"></div>
+                            </div>
                         </section>
                     </article>
                     <div class="serviceFooter">
@@ -81,22 +144,22 @@
                             <ul>
                                 <li>
                                     <a href="#">
+                                        ドトールコーヒーショップ<span class="arw"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        大戸屋ごはん処<span class="arw"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
                                     PRONTO<span class="arw"></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        ドトールコーヒー<span class="arw"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        大戸屋<span class="arw"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        焼肉&Bar 十炭<span class="arw"></span>
+                                        焼肉&BAR 十炭<span class="arw"></span>
                                     </a>
                                 </li>
                             </ul>
@@ -105,19 +168,54 @@
                 </div>
             </main>
             <!-- end contents -->
-                        <footer class="footer">
-                <div class="pagetop js-pagetop is-pagetop-show">
-                    <a href="#top" class="btnPageTop"></a>
-                </div>
-                <div class="footer-inner">
-                    <object type="image/svg+xml" data="./images/logo-w.svg"></object>
-                    <p class="copy">&copy; 2019 Itoya inc.</p>
-                </div>
-            </footer>
+            <footer class="footer">
+    <div class="pagetop show">
+        <a href="#top" class="btnPageTop"></a>
+    </div>
+    <div class="footer-inner">
+        <div class="footer-inner-right desktop">
+            <nav>
+                <ul>
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="company.html">Company</a></li>
+                    <li class="menu-item">
+                        <a>Service</a>
+                        <ul>
+                            <li class="menu-item-in"><a href="service-doutor.html">ドトールコーヒーショップ</a></li>
+                            <li class="menu-item-in"><a href="service-otoya.html">大戸屋ごはん処</a></li>
+                            <li class="menu-item-in"><a href="service-pronto.html">PRONTO</a></li>
+                            <li class="menu-item-in"><a href="service-jittan.html">焼肉&BAR 十炭</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="news.html">News</a></li>
+                    <li class="menu-item">
+                        <a>Recruit</a>
+                        <ul>
+                            <li class="menu-item-in"><a href="recruit-message.html">採用メッセージ</a></li>
+                            <li class="menu-item-in"><a href="recruit-itoya12.html">伊藤屋を知る12のコト</a></li>
+                            <li class="menu-item-in"><a href="recruit-interview.html">社員インタビュー</a></li>
+                            <li class="menu-item-in"><a href="recruit-requirement.html">募集要項</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <!-- end wrapper -->
+        <div class="footer-inner-left">
+            <object type="image/svg+xml" data="./images/logo-w.svg"></object>
+            <div class="address desktop">
+                〒210-0007<br> 神奈川県川崎市川崎区駅前本町3-4
+            </div>
+            <p class="copy">&copy; 2019 Itoya inc.</p>
+        </div>
 
-                    <script src="lib/jquery/dist/jquery.js"></script>
+    </div>
+</footer>
+</div>
+<!-- end wrapper -->
+
+                        <script src="lib/jquery/dist/jquery.js"></script>
+        <script src="lib/jquery/dist/jquery.easing.1.3.js"></script>
         <script src="js/common.js"></script>
     </body>
 </html>
+

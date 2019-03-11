@@ -5,6 +5,10 @@
     background-color: #411B75;
     text-align: center;
     line-height: 40px;
+    transition: all 0.25s ease,color 0.25s ease;
+    @media screen and (min-width: 1024px) {
+        width: 300px;
+    }
     &:hover {
         background-color: #fff;
     }

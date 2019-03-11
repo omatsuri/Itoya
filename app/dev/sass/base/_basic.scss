@@ -9,11 +9,15 @@ html{
 body {
 	font-size: 1.2rem;
 	letter-spacing: 0.2rem;
-	line-height: 1;
+	line-height: 1.6;
 	color: $sub2_color;
+	@media screen and (min-width: 1024px) {
+		font-size: 1.4rem;
+		line-height: 2;
+	}
 }
 .wrapper{
-    max-width: $size_max;
+    // max-width: $size_max;
     min-width: 320px;
     position: relative;
     margin: 0 auto;
@@ -52,13 +56,6 @@ body {
 	margin: auto;
 	content: "";
 	vertical-align: middle;
-}
-
-.activeBlur {
-    -webkit-filter: blur(8px);
-    -moz-filter: blur(8px);
-    -ms-filter: blur(8px);
-    filter: blur(8px);
 }
 
 .pagination {
@@ -139,5 +136,16 @@ body {
 		height: 1rem;
 		background: url("../images/arrow.svg") no-repeat center center;
 		background-size: contain;
+	}
+	&-bottom {
+		@media screen and (min-width: 1024px) {
+			font-size: 1.4rem;
+			line-height: 2;
+			top: inherit;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			margin-top: -.3rem;
+		}
 	}
 }

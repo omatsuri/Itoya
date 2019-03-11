@@ -2,47 +2,101 @@
     width: 100%;
     color: #FFF;
     background-color: #343434;
-    @media screen and (min-width: 1024px) {
-        width: 20%;
-        position: fixed;
-        letter-spacing: 0.2rem;
-        margin-left: 2rem;
-        bottom: 2rem;
-        z-index: 1100;
+
+    .desktop {
+        display: none;
+        @media screen and (min-width: 1024px) {
+            display: block;
+        }
     }
 
     &-inner {
         text-align: center;
+        @extend %clearfix;
+        @media screen and (min-width: 1024px) {
+            padding: 50px;
+        }
+
         object {
             margin: 2rem 0;
             width: 10rem;
+            @media screen and (min-width: 1024px) {
+                margin: 0 0 60px;
+                width: 20rem;
+            }
         }
+
         p {
             padding-bottom: 2rem;
         }
         @media screen and (min-width: 1024px) {
+            &-right {
+                float: right;
+
+                nav {
+                    padding-top: 20px;
+                    border-top: 1px #fff solid;
+
+                    ul {
+                        .menu-item {
+                            text-align: left;
+                            margin-right: 30px;
+                            float: left;
+
+                            a {
+                                color: #fff;
+                                line-height: 3;
+                                font-size: 1.6rem;
+                                font-weight: 700;
+
+                            }
+                            &-in {
+                                text-align: left;
+                                a {
+                                    font-size: 1rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &-left {
+            float: left;
             text-align: left;
+
+            .address {
+                margin-bottom: 40px;
+                line-height: 1.6;
+            }
+
+            p {
+                padding-bottom: 0;
+            }
         }
     }
-    .btnPageTop {
-        position: fixed;
-        right: 20px;
-        bottom: 120px;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background-color: #411B75;
+}
+
+.btnPageTop {
+    position: fixed;
+    right: 20px;
+    bottom: 120px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #411B75;
+    display: block;
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.3));
+    z-index: 2;
+
+    &:after {
+        content: "";
         display: block;
-        filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.3));
-        z-index: 2;
-        &:after {
-            content: "";
-            display: block;
-            background: url("../images/pagetop.svg") no-repeat center center;
-            background-size: contain;
-            width: 20px;
-            height: 40px;
-            margin: 0 auto;
-        }
+        background: url("../images/pagetop.svg") no-repeat center center;
+        background-size: contain;
+        width: 20px;
+        height: 40px;
+        margin: 0 auto;
     }
 }

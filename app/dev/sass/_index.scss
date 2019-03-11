@@ -4,21 +4,106 @@
         width: 100%;
         height: 450px;
         margin-bottom: 40px;
+        @media screen and (min-width: 425px) {
+            height: 500px;
+        }
+        @media screen and (min-width: 768px) {
+            height: 700px;
+        }
+        @media screen and (min-width: 1024px) {
+            height: 650px;
+        }
+        @media screen and (min-width: 1700px) {
+            height: 700px;
+        }
+        @media screen and (min-width: 1920px) {
+            height: 800px;
+        }
+        @media screen and (min-width: 2400px) {
+            height: 1000px;
+        }
 
-        &-image {
-            background-image: url("../images/home-1.jpg");
+        &-image-1,
+        &-image-2,
+        &-image-3 {
+            position: absolute;
+            top: 0;
             background-size: cover;
             width: 100%;
             height: 100%;
         }
 
+        &-image {
+            &-1 {
+                background-image: url("../images/home-1.jpg");
+                @media screen and (min-width: 1024px) {
+                    background-image: url("../images/home-1-pc.jpg");
+                }
+            }
+
+            &-2 {
+                background-image: url("../images/home-2.jpg");
+                @media screen and (min-width: 1024px) {
+                    background-image: url("../images/home-2-pc.jpg");
+                }
+            }
+
+            &-3 {
+                background-image: url("../images/home-3.jpg");
+                @media screen and (min-width: 1024px) {
+                    background-image: url("../images/home-3-pc.jpg");
+                }
+            }
+        }
+
+        .is-prev {
+            // opacity: 0;
+            // transform-origin: right top;
+            // transform: scale(0, 1);
+            z-index: 1;
+            transform: translateX(0%);
+            transition: transform 1s cubic-bezier(0.84, 0.03, 0.495, 0.93);
+        }
+
+        .is-next {
+            z-index: 1;
+            transform: translateX(-100%);
+        }
+
+        .is-active {
+            z-index: 2;
+            // opacity: 1;
+            // transform-origin: left top;
+            // transform: scale(1, 1);
+            transform: translateX(0%);
+            transition: transform 1s cubic-bezier(0.84, 0.03, 0.495, 0.93);
+        }
+
         &-maintext {
             position: absolute;
-            top: 200px;
+            top: 300px;
             left: 30px;
             color: #fff;
-            font-size: 2rem;
-            line-height: 3rem;
+            font-size: 3rem;
+            text-shadow: 0 3px 5px rgba(0,0,0,0.2);
+            font-weight: 900;
+            z-index: 5;
+            @media screen and (min-width: 768px) {
+                top: 400px;
+                font-size: 4rem;
+                font-weight: 900;
+            }
+            @media screen and (min-width: 1024px) {
+                top: 70%;
+                left: 30%;
+                -webkit-transform: translate(-50%,-50%);
+                -moz-transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                -o-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+                font-size: 6rem;
+                font-weight: 900;
+            }
         }
 
         &-subtext {
@@ -32,12 +117,19 @@
 
     .company {
         margin: 0 3% 70px;
+        @media screen and (min-width: 1024px) {
+            margin: 0 10% 70px;
+        }
 
         &-headMain {
             font-family: 'Roboto', sans-serif;
             font-size: 2.4rem;
             line-height: 3rem;
             color: #411B75;
+            @media screen and (min-width: 1024px) {
+                font-size: 5rem;
+                line-height: 7rem;
+            }
         }
 
         &-headSub {
@@ -49,7 +141,11 @@
 
         &-text {
             margin: 20px 0;
-            line-height: 1.8rem;
+            line-height: 2rem;
+            @media screen and (min-width: 1024px) {
+                margin: 50px 0;
+                line-height: 3rem;
+            }
         }
 
         &-image {
@@ -72,6 +168,10 @@
             font-size: 2.4rem;
             line-height: 3rem;
             color: #411B75;
+            @media screen and (min-width: 1024px) {
+                font-size: 5rem;
+                line-height: 7rem;
+            }
         }
 
         &-headSub {
@@ -83,11 +183,23 @@
 
         &-text {
             margin: 20px 0;
-            line-height: 1.8rem;
+            line-height: 2rem;
+            @media screen and (min-width: 1024px) {
+                margin: 50px auto;
+                width: 600px;
+                line-height: 3rem;
+            }
         }
 
         &-list {
             float: left;
+
+            p {
+                font-size: 0.8rem;
+                @media screen and (min-width: 1024px) {
+                    font-size: 1.2rem;
+                }
+            }
         }
 
         ul {
@@ -99,10 +211,23 @@
             width: 48%;
             margin-right: calc(4% * 0);
             margin-bottom: 10px;
+            @media screen and (min-width: 1024px) {
+                width: 23%;
+                margin-right: 2.66%;
+            }
         }
 
         li:not(:nth-child(2n)) {
             margin-right: 4%;
+            @media screen and (min-width: 1024px) {
+                margin-right: 2.66%;
+            }
+        }
+
+        li:last-child {
+            @media screen and (min-width: 1024px) {
+                margin-right: 0;
+            }
         }
 
         img {
@@ -115,12 +240,25 @@
 
     .news {
         margin: 0 3% 70px;
+        @media screen and (min-width: 1024px) {
+            margin: 0 20% 70px;
+        }
+
+        .moreButton {
+            @media screen and (min-width: 1024px) {
+                margin: 50px 0;
+            }
+        }
 
         &-headMain {
             font-family: 'Roboto', sans-serif;
             font-size: 2.4rem;
             line-height: 3rem;
             color: #411B75;
+            @media screen and (min-width: 1024px) {
+                font-size: 5rem;
+                line-height: 7rem;
+            }
         }
 
         &-headSub {
@@ -167,6 +305,9 @@
             height: 250px;
             background-color: #411B75;
             z-index: -1;
+            @media screen and (min-width: 1024px) {
+                height: 400px;
+            }
         }
 
         &-headMain {
@@ -174,6 +315,10 @@
             font-size: 2.4rem;
             line-height: 3rem;
             color: #fff;
+            @media screen and (min-width: 1024px) {
+                font-size: 5rem;
+                line-height: 7rem;
+            }
         }
 
         &-headSub {
@@ -187,12 +332,17 @@
             color: #fff;
             margin: 40px 0;
             text-align: center;
+            @media screen and (min-width: 1024px) {
+                margin: 50px auto;
+                line-height: 3rem;
+            }
         }
 
         ul {
             width: 80%;
             margin: 0 auto;
             box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            @extend %clearfix;
 
             li {
                 position: relative;
@@ -200,14 +350,35 @@
                 background-color: #fff;
                 line-height: 60px;
                 border-bottom: 1px solid #eee;
+                @media screen and (min-width: 1024px) {
+                    width: 25%;
+                    height: 210px;
+                    float: left;
+                    border-right: 1px solid #eee;
+                }
+
                 a {
                     display: block;
+                    @media screen and (min-width: 1024px) {
+                        text-align: center;
+                    }
+
+                    span {
+                        @media screen and (min-width: 1024px) {
+                            display: block;
+                            margin-bottom: 10px;
+                        }
+                    }
                 }
 
                 img {
                     width: 30px;
                     height: 60px;
                     margin: 0 10px 0 20px;
+                    @media screen and (min-width: 1024px) {
+                        width: 40px;
+                        margin: 30px 0 10px;
+                    }
                 }
             }
         }

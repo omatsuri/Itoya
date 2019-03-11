@@ -4,12 +4,19 @@
         height: 150px;
         background-color: #F8F7F3;
         text-align: center;
+        @media screen and (min-width: 1024px) {
+            height: 300px;
+        }
 
         h1 {
             font-family: 'Roboto', sans-serif;
             font-size: 2.4rem;
             line-height: 180px;
             color: #411B75;
+            @media screen and (min-width: 1024px) {
+                line-height: 330px;
+                font-size: 5rem;
+            }
         }
     }
 
@@ -23,6 +30,11 @@
             font-size: 1.8rem;
             font-weight: bold;
             line-height: 3;
+            @media screen and (min-width: 1024px) {
+                font-size: 3rem;
+                line-height: 5rem;
+                margin: 30px 0;
+            }
         }
 
         p {
@@ -34,6 +46,16 @@
 
         .personalBoxes {
             margin: 0 3%;
+            @extend %clearfix;
+            @media screen and (min-width: 1024px) {
+                margin: 0 auto;
+                width: 950px;
+            }
+            @media screen and (min-width: 1024px) {
+                li:not(:last-child) {
+                    margin-right: 25px;
+                }
+            }
         }
 
         .personalBox {
@@ -42,6 +64,11 @@
             padding: 10px 0;
             margin: 20px 0;
             background-color: #fff;
+            @media screen and (min-width: 1024px) {
+                width: 300px;
+                height: 150px;
+                float: left;
+            }
 
             h3 {
                 position: absolute;
@@ -51,6 +78,7 @@
                 transform: translateY(-50%);
                 line-height: 1.3;
                 text-align: center;
+
                 span {
                     display: block;
                     margin-bottom: 5px;
@@ -65,6 +93,11 @@
             font-size: 1.8rem;
             font-weight: bold;
             line-height: 3;
+            @media screen and (min-width: 1024px) {
+                font-size: 3rem;
+                line-height: 5rem;
+                margin: 50px 0 30px;
+            }
         }
 
         h3 {
@@ -83,10 +116,15 @@
 
         .accordion {
             margin: 0 3% 20px;
+            @media screen and (min-width: 1024px) {
+                margin: 0 auto 20px;
+                width: 800px;
+            }
 
             h4 {
                 background-color: #F3EFF8;
                 line-height: 1.6;
+                cursor: pointer;
             }
 
             &-heading {
@@ -118,7 +156,6 @@
                     content: "+";
                     position: absolute;
                     left: 7px;
-                    // right: 0;
                     top: 50%;
                     transform: translateY(-50%);
                 }
@@ -157,6 +194,24 @@
                 width: 60%;
                 padding: 12px 20px;
             }
+
+            &-entryButton {
+                background-color: #F3EFF8;
+
+                a {
+                    color: #411B75;
+                    text-align: center;
+                    line-height: 60px;
+                    display: block;
+                    transition: 0.25s ease-in-out, color 0.25s ease-in-out;
+
+                    &:hover {
+                        text-decoration: underline;
+                        background-color: #411B75;
+                        color: #fff;
+                    }
+                }
+            }
         }
 
         .is-open {
@@ -168,7 +223,6 @@
             .accordion-body {
                 max-height: 9999px;
                 opacity: 1;
-
             }
 
             .accordion-mark {

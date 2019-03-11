@@ -4,35 +4,55 @@
         height: 150px;
         background-color: #F8F7F3;
         text-align: center;
+        @media screen and (min-width: 1024px) {
+            height: 300px;
+        }
+
         h1 {
             font-family: 'Roboto', sans-serif;
             font-size: 2.4rem;
             line-height: 180px;
             color: #411B75;
+            @media screen and (min-width: 1024px) {
+                line-height: 330px;
+                font-size: 5rem;
+            }
         }
     }
+
     .contentDiscription {
         h2 {
             margin: 0 3%;
             text-align: center;
             font-size: 1.8rem;
             font-weight: bold;
-            margin: 30px 0 20px;
+            margin: 40px 0 30px;
+            @media screen and (min-width: 1024px) {
+                font-size: 3rem;
+                line-height: 5rem;
+                margin: 80px 0 30px;
+            }
         }
+
         p {
             margin: 20px 3%;
+            text-align: center;
         }
+
         ul {
             background-color: #F3EFF8;
             @extend %clearfix;
+
             li {
-                padding: 10px ;
+                padding: 10px;
                 float: left;
                 width: 50%;
                 line-height: 30px;
+                letter-spacing: 1px;
+
                 span {
                     text-align: center;
-                    margin-right: 10px;
+                    margin-right: 5px;
                     float: left;
                     width: 30px;
                     border-radius: 100%;
@@ -40,14 +60,35 @@
                     color: #fff;
                 }
             }
+            @media screen and (min-width: 1024px) {
+                display: none;
+            }
         }
     }
+
     .feature12 {
         margin: 40px 3%;
+        @media screen and (min-width: 1024px) {
+            margin: 40px auto;
+            width: 990px;
+        }
+        @extend %clearfix;
+
         li {
             border: 1px solid #eee;
             margin-bottom: 30px;
+            @media screen and (min-width: 1024px) {
+                float: left;
+                width: 320px;
+                margin-right: 15px;
+                height: 410px;
+
+                &:nth-child(3n) {
+                    margin-right: 0;
+                }
+            }
         }
+
         &-no {
             text-align: center;
             line-height: 40px;
@@ -58,10 +99,14 @@
             background-color: #411B75;
             color: #fff;
         }
+
         &-image {
             background-color: #eee;
-            height: 100px;
+            margin: 0 auto;
+            width: 70px;
+            height: 70px;
         }
+
         &-title {
             text-align: center;
             font-size: 1.8rem;
@@ -69,10 +114,87 @@
             margin: 30px 0;
             color: #411B75;
         }
+
         &-text {
             margin: 30px 10%;
             line-height: 1.8;
+            @media screen and (min-width: 1024px) {
+                font-size: 1.3rem;
+            }
+        }
+
+        .pctg {
+            &-01 {
+                background-image: url("../images/pctg-01.jpeg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-02 {
+                background-image: url("../images/pctg-02.jpeg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-03 {
+                background-image: url("../images/pctg-03.jpeg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-04 {
+                background-image: url("../images/pctg-04.jpeg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-05 {
+                background-image: url("../images/pctg-05.jpeg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-06 {
+                background-image: url("../images/pctg-06.jpeg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-07 {
+                background-image: url("../images/pctg-07.jpeg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-08 {
+                background-image: url("../images/pctg-08.jpeg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-09 {
+                background-image: url("../images/pctg-09.jpeg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-10 {
+                background-image: url("../images/pctg-10.jpeg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-11 {
+                background-image: url("../images/pctg-11.jpeg");
+                background-size: cover;
+                background-position: center;
+            }
+
+            &-12 {
+                background-image: url("../images/pctg-12.jpeg");
+                background-size: cover;
+                background-position: center;
+            }
         }
     }
-
 }

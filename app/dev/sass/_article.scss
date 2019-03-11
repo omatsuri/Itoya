@@ -4,18 +4,42 @@
         height: 150px;
         background-color: #F8F7F3;
         text-align: center;
+        @media screen and (min-width: 1024px) {
+            height: 300px;
+        }
+
         h1 {
             font-family: 'Roboto', sans-serif;
             font-size: 2.4rem;
             line-height: 180px;
             color: #411B75;
+            @media screen and (min-width: 1024px) {
+                line-height: 330px;
+                font-size: 5rem;
+            }
         }
     }
+
+    .articleWrapper {
+        @media screen and (min-width: 1024px) {
+            width: 950px;
+            margin: 80px auto;
+        }
+        @extend %clearfix;
+    }
+
     article {
         margin: 40px 3% 60px;
         border-top: 1px solid #411B75;
+        @media screen and (min-width: 1024px) {
+            width: 650px;
+            margin: 0 40px 0 0;
+            float: left;
+        }
+
         .articleContents {
             padding-top: 20px;
+
             time {
                 font-size: 0.8rem;
                 line-height: 1.2;
@@ -24,11 +48,19 @@
             h2 {
                 font-size: 1.4rem;
                 line-height: 2;
+                @media screen and (min-width: 1024px) {
+                    font-size: 2rem;
+                }
             }
+
             img {
                 width: 100%;
                 height: auto;
+                @media screen and (min-width: 1024px) {
+                    max-width: 650px;
+                }
             }
+
             p {
                 margin: 20px 0;
                 line-height: 2;
@@ -36,4 +68,40 @@
         }
     }
 
+    .archive {
+        display: none;
+        @media screen and (min-width: 1024px) {
+            border-top: 1px solid #411B75;
+            width: 260px;
+            display: block;
+            float: right;
+
+            h2 {
+                text-align: center;
+                padding-top: 40px;
+                color: #411B75;
+            }
+
+            ul {
+                margin: 20px 0;
+
+                li {
+                    position: relative;
+                    padding: 10px;
+                    margin-bottom: 15px;
+                    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+                    time {
+                        font-size: 0.8rem;
+                        line-height: 1.2;
+                    }
+
+                    h3 {
+                        font-size: 1.4rem;
+                        line-height: 2;
+                    }
+                }
+            }
+        }
+    }
 }
