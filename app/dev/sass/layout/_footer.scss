@@ -48,31 +48,40 @@
                                 line-height: 3;
                                 font-size: 1.6rem;
                                 font-weight: 700;
-
+                                transition: all 0.25s ease-in-out;
+                                &:hover {
+                                    text-decoration: underline;
+                                }
                             }
+
                             &-in {
                                 text-align: left;
+
                                 a {
                                     font-size: 1rem;
+                                    transition: all 0.25s ease-in-out;
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
                                 }
                             }
                         }
                     }
                 }
             }
-        }
 
-        &-left {
-            float: left;
-            text-align: left;
+            &-left {
+                float: left;
+                text-align: left;
 
-            .address {
-                margin-bottom: 40px;
-                line-height: 1.6;
-            }
+                .address {
+                    margin-bottom: 40px;
+                    line-height: 1.6;
+                }
 
-            p {
-                padding-bottom: 0;
+                p {
+                    padding-bottom: 0;
+                }
             }
         }
     }
@@ -93,7 +102,7 @@
     &:after {
         content: "";
         display: block;
-        background: url("../images/pagetop.svg") no-repeat center center;
+        background: url("./images/pagetop.svg") no-repeat center center;
         background-size: contain;
         width: 20px;
         height: 40px;

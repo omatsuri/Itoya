@@ -1,4 +1,4 @@
-.page-front {
+.home {
     .keyvisual {
         position: relative;
         width: 100%;
@@ -35,23 +35,23 @@
 
         &-image {
             &-1 {
-                background-image: url("../images/home-1.jpg");
+                background-image: url("./images/home-1.jpg");
                 @media screen and (min-width: 1024px) {
-                    background-image: url("../images/home-1-pc.jpg");
+                    background-image: url("./images/home-1-pc.jpg");
                 }
             }
 
             &-2 {
-                background-image: url("../images/home-2.jpg");
+                background-image: url("./images/home-2.jpg");
                 @media screen and (min-width: 1024px) {
-                    background-image: url("../images/home-2-pc.jpg");
+                    background-image: url("./images/home-2-pc.jpg");
                 }
             }
 
             &-3 {
-                background-image: url("../images/home-3.jpg");
+                background-image: url("./images/home-3.jpg");
                 @media screen and (min-width: 1024px) {
-                    background-image: url("../images/home-3-pc.jpg");
+                    background-image: url("./images/home-3-pc.jpg");
                 }
             }
         }
@@ -273,9 +273,15 @@
 
             li {
                 position: relative;
-                padding: 10px;
                 margin-bottom: 15px;
                 box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+                transition: all 0.25s ease-in-out;
+                &:hover {
+                    @media screen and (min-width: 1024px) {
+                        transform: scale(1.05);
+                        box-shadow: 0 5px 30px rgba(0,0,0,0.1);
+                    }
+                }
 
                 time {
                     font-size: 0.8rem;
@@ -285,6 +291,10 @@
                 h3 {
                     font-size: 1.4rem;
                     line-height: 2;
+                }
+                a {
+                    display: block;
+                    padding: 10px;
                 }
             }
         }

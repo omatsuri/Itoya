@@ -7,12 +7,12 @@ Version: 1.0
 /*
 * base
 */
-.header .grobalNav-desktop nav ul, .footer-inner, .contents-inner, .page-front .service ul, .page-front .recruit ul, .page-service .serviceContents .imageWrap, .page-service .serviceContents .wrapper-top, .page-service .serviceContents .wrapper-bottom-top, .page-service .serviceFooter, .page-article .articleWrapper, .page-recruit-interview .interviewBoxes, .page-recruit-itoya12 .contentDiscription ul, .page-recruit-itoya12 .feature12, .page-recruit-requirement .personal .personalBoxes {
+.header .grobalNav-desktop nav ul, .footer-inner, .contents-inner, .home .service ul, .home .recruit ul, .page-id-16 .serviceContents .imageWrap, .page-id-18 .serviceContents .imageWrap, .page-id-22 .serviceContents .imageWrap, .page-id-34 .serviceContents .imageWrap, .page-id-16 .serviceContents .wrapper-top, .page-id-18 .serviceContents .wrapper-top, .page-id-22 .serviceContents .wrapper-top, .page-id-34 .serviceContents .wrapper-top, .page-id-16 .serviceContents .wrapper-bottom-top, .page-id-18 .serviceContents .wrapper-bottom-top, .page-id-22 .serviceContents .wrapper-bottom-top, .page-id-34 .serviceContents .wrapper-bottom-top, .page-id-16 .serviceFooter, .page-id-18 .serviceFooter, .page-id-22 .serviceFooter, .page-id-34 .serviceFooter, .single .articleWrapper, .page-id-31 .interviewBoxes, .page-id-41 .interviewBoxes, .page-id-43 .interviewBoxes, .page-id-45 .interviewBoxes, .page-id-48 .interviewBoxes, .page-id-27 .contentDiscription ul, .page-id-27 .feature12, .page-id-29 .personal .personalBoxes {
   zoom: 1; }
-  .header .grobalNav-desktop nav ul:before, .footer-inner:before, .contents-inner:before, .page-front .service ul:before, .page-front .recruit ul:before, .page-service .serviceContents .imageWrap:before, .page-service .serviceContents .wrapper-top:before, .page-service .serviceContents .wrapper-bottom-top:before, .page-service .serviceFooter:before, .page-article .articleWrapper:before, .page-recruit-interview .interviewBoxes:before, .page-recruit-itoya12 .contentDiscription ul:before, .page-recruit-itoya12 .feature12:before, .page-recruit-requirement .personal .personalBoxes:before, .header .grobalNav-desktop nav ul:after, .footer-inner:after, .contents-inner:after, .page-front .service ul:after, .page-front .recruit ul:after, .page-service .serviceContents .imageWrap:after, .page-service .serviceContents .wrapper-top:after, .page-service .serviceContents .wrapper-bottom-top:after, .page-service .serviceFooter:after, .page-article .articleWrapper:after, .page-recruit-interview .interviewBoxes:after, .page-recruit-itoya12 .contentDiscription ul:after, .page-recruit-itoya12 .feature12:after, .page-recruit-requirement .personal .personalBoxes:after {
+  .header .grobalNav-desktop nav ul:before, .footer-inner:before, .contents-inner:before, .home .service ul:before, .home .recruit ul:before, .page-id-16 .serviceContents .imageWrap:before, .page-id-18 .serviceContents .imageWrap:before, .page-id-22 .serviceContents .imageWrap:before, .page-id-34 .serviceContents .imageWrap:before, .page-id-16 .serviceContents .wrapper-top:before, .page-id-18 .serviceContents .wrapper-top:before, .page-id-22 .serviceContents .wrapper-top:before, .page-id-34 .serviceContents .wrapper-top:before, .page-id-16 .serviceContents .wrapper-bottom-top:before, .page-id-18 .serviceContents .wrapper-bottom-top:before, .page-id-22 .serviceContents .wrapper-bottom-top:before, .page-id-34 .serviceContents .wrapper-bottom-top:before, .page-id-16 .serviceFooter:before, .page-id-18 .serviceFooter:before, .page-id-22 .serviceFooter:before, .page-id-34 .serviceFooter:before, .single .articleWrapper:before, .page-id-31 .interviewBoxes:before, .page-id-41 .interviewBoxes:before, .page-id-43 .interviewBoxes:before, .page-id-45 .interviewBoxes:before, .page-id-48 .interviewBoxes:before, .page-id-27 .contentDiscription ul:before, .page-id-27 .feature12:before, .page-id-29 .personal .personalBoxes:before, .header .grobalNav-desktop nav ul:after, .footer-inner:after, .contents-inner:after, .home .service ul:after, .home .recruit ul:after, .page-id-16 .serviceContents .imageWrap:after, .page-id-18 .serviceContents .imageWrap:after, .page-id-22 .serviceContents .imageWrap:after, .page-id-34 .serviceContents .imageWrap:after, .page-id-16 .serviceContents .wrapper-top:after, .page-id-18 .serviceContents .wrapper-top:after, .page-id-22 .serviceContents .wrapper-top:after, .page-id-34 .serviceContents .wrapper-top:after, .page-id-16 .serviceContents .wrapper-bottom-top:after, .page-id-18 .serviceContents .wrapper-bottom-top:after, .page-id-22 .serviceContents .wrapper-bottom-top:after, .page-id-34 .serviceContents .wrapper-bottom-top:after, .page-id-16 .serviceFooter:after, .page-id-18 .serviceFooter:after, .page-id-22 .serviceFooter:after, .page-id-34 .serviceFooter:after, .single .articleWrapper:after, .page-id-31 .interviewBoxes:after, .page-id-41 .interviewBoxes:after, .page-id-43 .interviewBoxes:after, .page-id-45 .interviewBoxes:after, .page-id-48 .interviewBoxes:after, .page-id-27 .contentDiscription ul:after, .page-id-27 .feature12:after, .page-id-29 .personal .personalBoxes:after {
     content: "";
     display: block; }
-  .header .grobalNav-desktop nav ul:after, .footer-inner:after, .contents-inner:after, .page-front .service ul:after, .page-front .recruit ul:after, .page-service .serviceContents .imageWrap:after, .page-service .serviceContents .wrapper-top:after, .page-service .serviceContents .wrapper-bottom-top:after, .page-service .serviceFooter:after, .page-article .articleWrapper:after, .page-recruit-interview .interviewBoxes:after, .page-recruit-itoya12 .contentDiscription ul:after, .page-recruit-itoya12 .feature12:after, .page-recruit-requirement .personal .personalBoxes:after {
+  .header .grobalNav-desktop nav ul:after, .footer-inner:after, .contents-inner:after, .home .service ul:after, .home .recruit ul:after, .page-id-16 .serviceContents .imageWrap:after, .page-id-18 .serviceContents .imageWrap:after, .page-id-22 .serviceContents .imageWrap:after, .page-id-34 .serviceContents .imageWrap:after, .page-id-16 .serviceContents .wrapper-top:after, .page-id-18 .serviceContents .wrapper-top:after, .page-id-22 .serviceContents .wrapper-top:after, .page-id-34 .serviceContents .wrapper-top:after, .page-id-16 .serviceContents .wrapper-bottom-top:after, .page-id-18 .serviceContents .wrapper-bottom-top:after, .page-id-22 .serviceContents .wrapper-bottom-top:after, .page-id-34 .serviceContents .wrapper-bottom-top:after, .page-id-16 .serviceFooter:after, .page-id-18 .serviceFooter:after, .page-id-22 .serviceFooter:after, .page-id-34 .serviceFooter:after, .single .articleWrapper:after, .page-id-31 .interviewBoxes:after, .page-id-41 .interviewBoxes:after, .page-id-43 .interviewBoxes:after, .page-id-45 .interviewBoxes:after, .page-id-48 .interviewBoxes:after, .page-id-27 .contentDiscription ul:after, .page-id-27 .feature12:after, .page-id-29 .personal .personalBoxes:after {
     clear: both; }
 
 body {
@@ -585,7 +585,7 @@ body {
     width: 2rem;
     height: 10px;
     height: 1rem;
-    background: url("../images/arrow.svg") no-repeat center center;
+    background: url("images/arrow.svg") no-repeat center center;
     background-size: contain; }
   @media screen and (min-width: 1024px) {
     .arw-bottom {
@@ -806,19 +806,25 @@ body {
               color: #fff;
               line-height: 3;
               font-size: 1.6rem;
-              font-weight: 700; }
+              font-weight: 700;
+              transition: all 0.25s ease-in-out; }
+              .footer-inner-right nav ul .menu-item a:hover {
+                text-decoration: underline; }
             .footer-inner-right nav ul .menu-item-in {
               text-align: left; }
               .footer-inner-right nav ul .menu-item-in a {
-                font-size: 1rem; } }
-    .footer-inner-left {
-      float: left;
-      text-align: left; }
-      .footer-inner-left .address {
-        margin-bottom: 40px;
-        line-height: 1.6; }
-      .footer-inner-left p {
-        padding-bottom: 0; }
+                font-size: 1rem;
+                transition: all 0.25s ease-in-out; }
+                .footer-inner-right nav ul .menu-item-in a:hover {
+                  text-decoration: underline; }
+      .footer-inner-left {
+        float: left;
+        text-align: left; }
+        .footer-inner-left .address {
+          margin-bottom: 40px;
+          line-height: 1.6; }
+        .footer-inner-left p {
+          padding-bottom: 0; } }
 
 .btnPageTop {
   position: fixed;
@@ -835,7 +841,7 @@ body {
   .btnPageTop:after {
     content: "";
     display: block;
-    background: url("../images/pagetop.svg") no-repeat center center;
+    background: url("images/pagetop.svg") no-repeat center center;
     background-size: contain;
     width: 20px;
     height: 40px;
@@ -924,62 +930,62 @@ heading
 /*
 * pages
 */
-.page-front .keyvisual {
+.home .keyvisual {
   position: relative;
   width: 100%;
   height: 450px;
   margin-bottom: 40px; }
   @media screen and (min-width: 425px) {
-    .page-front .keyvisual {
+    .home .keyvisual {
       height: 500px; } }
   @media screen and (min-width: 768px) {
-    .page-front .keyvisual {
+    .home .keyvisual {
       height: 700px; } }
   @media screen and (min-width: 1024px) {
-    .page-front .keyvisual {
+    .home .keyvisual {
       height: 650px; } }
   @media screen and (min-width: 1700px) {
-    .page-front .keyvisual {
+    .home .keyvisual {
       height: 700px; } }
   @media screen and (min-width: 1920px) {
-    .page-front .keyvisual {
+    .home .keyvisual {
       height: 800px; } }
   @media screen and (min-width: 2400px) {
-    .page-front .keyvisual {
+    .home .keyvisual {
       height: 1000px; } }
-  .page-front .keyvisual-image-1, .page-front .keyvisual-image-2, .page-front .keyvisual-image-3 {
+  .home .keyvisual-image-1, .home .keyvisual-image-2, .home .keyvisual-image-3 {
     position: absolute;
     top: 0;
     background-size: cover;
     width: 100%;
     height: 100%; }
-  .page-front .keyvisual-image-1 {
-    background-image: url("../images/home-1.jpg"); }
+  .home .keyvisual-image-1 {
+    background-image: url("images/home-1.jpg"); }
     @media screen and (min-width: 1024px) {
-      .page-front .keyvisual-image-1 {
-        background-image: url("../images/home-1-pc.jpg"); } }
-  .page-front .keyvisual-image-2 {
-    background-image: url("../images/home-2.jpg"); }
+      .home .keyvisual-image-1 {
+        background-image: url("images/home-1-pc.jpg"); } }
+  .home .keyvisual-image-2 {
+    background-image: url("images/home-2.jpg"); }
     @media screen and (min-width: 1024px) {
-      .page-front .keyvisual-image-2 {
-        background-image: url("../images/home-2-pc.jpg"); } }
-  .page-front .keyvisual-image-3 {
-    background-image: url("../images/home-3.jpg"); }
+      .home .keyvisual-image-2 {
+        background-image: url("images/home-2-pc.jpg"); } }
+  .home .keyvisual-image-3 {
+    background-image: url("images/home-3.jpg"); }
     @media screen and (min-width: 1024px) {
-      .page-front .keyvisual-image-3 {
-        background-image: url("../images/home-3-pc.jpg"); } }
-  .page-front .keyvisual .is-prev {
+      .home .keyvisual-image-3 {
+        background-image: url("images/home-3-pc.jpg"); } }
+  .home .keyvisual .is-prev {
     z-index: 1;
     transform: translateX(0%);
     transition: transform 1s cubic-bezier(0.84, 0.03, 0.495, 0.93); }
-  .page-front .keyvisual .is-next {
+  .home .keyvisual .is-next {
     z-index: 1;
     transform: translateX(-100%); }
-  .page-front .keyvisual .is-active {
+  .home .keyvisual .is-active {
     z-index: 2;
     transform: translateX(0%);
     transition: transform 1s cubic-bezier(0.84, 0.03, 0.495, 0.93); }
-  .page-front .keyvisual-maintext {
+  .home .keyvisual-maintext {
     position: absolute;
     top: 300px;
     left: 30px;
@@ -990,18 +996,18 @@ heading
     font-weight: 900;
     z-index: 5; }
     @media screen and (min-width: 768px) {
-      .page-front .keyvisual-maintext {
+      .home .keyvisual-maintext {
         top: 400px;
         font-size: 4rem;
         font-weight: 900; } }
     @media screen and (min-width: 1024px) {
-      .page-front .keyvisual-maintext {
+      .home .keyvisual-maintext {
         top: 70%;
         left: 30%;
         transform: translate(-50%, -50%);
         font-size: 6rem;
         font-weight: 900; } }
-  .page-front .keyvisual-subtext {
+  .home .keyvisual-subtext {
     position: absolute;
     top: 280px;
     left: 30px;
@@ -1010,12 +1016,12 @@ heading
     line-height: 12px;
     line-height: 1.2rem; }
 
-.page-front .company {
+.home .company {
   margin: 0 3% 70px; }
   @media screen and (min-width: 1024px) {
-    .page-front .company {
+    .home .company {
       margin: 0 10% 70px; } }
-  .page-front .company-headMain {
+  .home .company-headMain {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
@@ -1023,35 +1029,35 @@ heading
     line-height: 3rem;
     color: #411B75; }
     @media screen and (min-width: 1024px) {
-      .page-front .company-headMain {
+      .home .company-headMain {
         font-size: 5rem;
         line-height: 7rem; } }
-  .page-front .company-headSub {
+  .home .company-headSub {
     display: block;
     font-size: 12px;
     font-size: 1.2rem;
     line-height: 18px;
     line-height: 1.8rem;
     color: #411B75; }
-  .page-front .company-text {
+  .home .company-text {
     margin: 20px 0;
     line-height: 20px;
     line-height: 2rem; }
     @media screen and (min-width: 1024px) {
-      .page-front .company-text {
+      .home .company-text {
         margin: 50px 0;
         line-height: 3rem; } }
-  .page-front .company-image {
+  .home .company-image {
     margin: 20px 0;
     width: 100%;
     height: 150px;
     background-color: #eee; }
 
-.page-front .service {
+.home .service {
   margin: 0 3% 70px; }
-  .page-front .service h2 {
+  .home .service h2 {
     text-align: center; }
-  .page-front .service-headMain {
+  .home .service-headMain {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
@@ -1059,66 +1065,66 @@ heading
     line-height: 3rem;
     color: #411B75; }
     @media screen and (min-width: 1024px) {
-      .page-front .service-headMain {
+      .home .service-headMain {
         font-size: 5rem;
         line-height: 7rem; } }
-  .page-front .service-headSub {
+  .home .service-headSub {
     display: block;
     font-size: 12px;
     font-size: 1.2rem;
     line-height: 18px;
     line-height: 1.8rem;
     color: #411B75; }
-  .page-front .service-text {
+  .home .service-text {
     margin: 20px 0;
     line-height: 20px;
     line-height: 2rem; }
     @media screen and (min-width: 1024px) {
-      .page-front .service-text {
+      .home .service-text {
         margin: 50px auto;
         width: 600px;
         line-height: 3rem; } }
-  .page-front .service-list {
+  .home .service-list {
     float: left; }
-    .page-front .service-list p {
+    .home .service-list p {
       font-size: 8px;
       font-size: 0.8rem; }
       @media screen and (min-width: 1024px) {
-        .page-front .service-list p {
+        .home .service-list p {
           font-size: 1.2rem; } }
-  .page-front .service ul {
+  .home .service ul {
     width: 100%; }
-  .page-front .service li {
+  .home .service li {
     width: 48%;
     margin-right: calc(4% * 0);
     margin-bottom: 10px; }
     @media screen and (min-width: 1024px) {
-      .page-front .service li {
+      .home .service li {
         width: 23%;
         margin-right: 2.66%; } }
-  .page-front .service li:not(:nth-child(2n)) {
+  .home .service li:not(:nth-child(2n)) {
     margin-right: 4%; }
     @media screen and (min-width: 1024px) {
-      .page-front .service li:not(:nth-child(2n)) {
+      .home .service li:not(:nth-child(2n)) {
         margin-right: 2.66%; } }
   @media screen and (min-width: 1024px) {
-    .page-front .service li:last-child {
+    .home .service li:last-child {
       margin-right: 0; } }
-  .page-front .service img {
+  .home .service img {
     margin: 5px 0;
     width: 100%;
     height: auto;
     background-color: #eee; }
 
-.page-front .news {
+.home .news {
   margin: 0 3% 70px; }
   @media screen and (min-width: 1024px) {
-    .page-front .news {
+    .home .news {
       margin: 0 20% 70px; } }
   @media screen and (min-width: 1024px) {
-    .page-front .news .moreButton {
+    .home .news .moreButton {
       margin: 50px 0; } }
-  .page-front .news-headMain {
+  .home .news-headMain {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
@@ -1126,48 +1132,55 @@ heading
     line-height: 3rem;
     color: #411B75; }
     @media screen and (min-width: 1024px) {
-      .page-front .news-headMain {
+      .home .news-headMain {
         font-size: 5rem;
         line-height: 7rem; } }
-  .page-front .news-headSub {
+  .home .news-headSub {
     display: block;
     font-size: 12px;
     font-size: 1.2rem;
     line-height: 18px;
     line-height: 1.8rem;
     color: #411B75; }
-  .page-front .news ul {
+  .home .news ul {
     margin: 20px 0; }
-    .page-front .news ul li {
+    .home .news ul li {
       position: relative;
-      padding: 10px;
       margin-bottom: 15px;
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
-      .page-front .news ul li time {
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.25s ease-in-out; }
+      @media screen and (min-width: 1024px) {
+        .home .news ul li:hover {
+          transform: scale(1.05);
+          box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); } }
+      .home .news ul li time {
         font-size: 8px;
         font-size: 0.8rem;
         line-height: 1.2; }
-      .page-front .news ul li h3 {
+      .home .news ul li h3 {
         font-size: 14px;
         font-size: 1.4rem;
         line-height: 2; }
+      .home .news ul li a {
+        display: block;
+        padding: 10px; }
 
-.page-front .recruit {
+.home .recruit {
   margin: 0 0 70px;
   position: relative; }
-  .page-front .recruit h2 {
+  .home .recruit h2 {
     text-align: center;
     padding-top: 40px; }
-  .page-front .recruit-bg {
+  .home .recruit-bg {
     position: absolute;
     width: 100%;
     height: 250px;
     background-color: #411B75;
     z-index: -1; }
     @media screen and (min-width: 1024px) {
-      .page-front .recruit-bg {
+      .home .recruit-bg {
         height: 400px; } }
-  .page-front .recruit-headMain {
+  .home .recruit-headMain {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
@@ -1175,606 +1188,638 @@ heading
     line-height: 3rem;
     color: #fff; }
     @media screen and (min-width: 1024px) {
-      .page-front .recruit-headMain {
+      .home .recruit-headMain {
         font-size: 5rem;
         line-height: 7rem; } }
-  .page-front .recruit-headSub {
+  .home .recruit-headSub {
     display: block;
     font-size: 12px;
     font-size: 1.2rem;
     line-height: 18px;
     line-height: 1.8rem;
     color: #fff; }
-  .page-front .recruit-text {
+  .home .recruit-text {
     color: #fff;
     margin: 40px 0;
     text-align: center; }
     @media screen and (min-width: 1024px) {
-      .page-front .recruit-text {
+      .home .recruit-text {
         margin: 50px auto;
         line-height: 3rem; } }
-  .page-front .recruit ul {
+  .home .recruit ul {
     width: 80%;
     margin: 0 auto;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
-    .page-front .recruit ul li {
+    .home .recruit ul li {
       position: relative;
       height: 60px;
       background-color: #fff;
       line-height: 60px;
       border-bottom: 1px solid #eee; }
       @media screen and (min-width: 1024px) {
-        .page-front .recruit ul li {
+        .home .recruit ul li {
           width: 25%;
           height: 210px;
           float: left;
           border-right: 1px solid #eee; } }
-      .page-front .recruit ul li a {
+      .home .recruit ul li a {
         display: block; }
         @media screen and (min-width: 1024px) {
-          .page-front .recruit ul li a {
+          .home .recruit ul li a {
             text-align: center; } }
         @media screen and (min-width: 1024px) {
-          .page-front .recruit ul li a span {
+          .home .recruit ul li a span {
             display: block;
             margin-bottom: 10px; } }
-      .page-front .recruit ul li img {
+      .home .recruit ul li img {
         width: 30px;
         height: 60px;
         margin: 0 10px 0 20px; }
         @media screen and (min-width: 1024px) {
-          .page-front .recruit ul li img {
+          .home .recruit ul li img {
             width: 40px;
             margin: 30px 0 10px; } }
 
-.page-company .pageHeading {
+.page-id-14 .pageHeading {
   width: 100%;
   height: 150px;
   background-color: #F8F7F3;
   text-align: center; }
   @media screen and (min-width: 1024px) {
-    .page-company .pageHeading {
+    .page-id-14 .pageHeading {
       height: 300px; } }
-  .page-company .pageHeading h1 {
+  .page-id-14 .pageHeading h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
     line-height: 180px;
     color: #411B75; }
     @media screen and (min-width: 1024px) {
-      .page-company .pageHeading h1 {
+      .page-id-14 .pageHeading h1 {
         line-height: 330px;
         font-size: 5rem; } }
 
-.page-company .topMessage {
+.page-id-14 .topMessage {
   margin: 0 3%; }
   @media screen and (min-width: 1024px) {
-    .page-company .topMessage {
+    .page-id-14 .topMessage {
       margin: 0 auto;
       width: 650px; } }
-  .page-company .topMessage h2 {
+  .page-id-14 .topMessage h2 {
     text-align: center;
     font-size: 18px;
     font-size: 1.8rem;
     font-weight: bold;
     margin: 40px 0 30px; }
     @media screen and (min-width: 1024px) {
-      .page-company .topMessage h2 {
+      .page-id-14 .topMessage h2 {
         font-size: 3rem;
         line-height: 5rem;
         margin: 80px 0 30px; } }
-  .page-company .topMessage-image {
-    background-image: url("../images/logo-p.svg");
+  .page-id-14 .topMessage-image {
+    background-image: url("images/logo-p.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     width: 200px;
     height: 120px;
     margin: 0 auto; }
-  .page-company .topMessage-text {
+  .page-id-14 .topMessage-text {
     margin: 10px 0;
     line-height: 20px;
     line-height: 2rem; }
     @media screen and (min-width: 1024px) {
-      .page-company .topMessage-text {
+      .page-id-14 .topMessage-text {
         line-height: 2.5; } }
-  .page-company .topMessage-katagaki {
+  .page-id-14 .topMessage-katagaki {
     margin-top: 5px;
     text-align: right;
     font-size: 10px;
     font-size: 1rem; }
     @media screen and (min-width: 1024px) {
-      .page-company .topMessage-katagaki {
+      .page-id-14 .topMessage-katagaki {
         margin-top: 20px;
         font-size: 1.2rem; } }
-  .page-company .topMessage-name {
+  .page-id-14 .topMessage-name {
     text-align: right;
     margin: 5px 0;
     font-size: 16px;
     font-size: 1.6rem; }
     @media screen and (min-width: 1024px) {
-      .page-company .topMessage-name {
+      .page-id-14 .topMessage-name {
         font-size: 2.5rem; } }
 
-.page-company .aboutCompany {
+.page-id-14 .aboutCompany {
   margin: 0 3% 60px; }
-  .page-company .aboutCompany h2 {
+  .page-id-14 .aboutCompany h2 {
     text-align: center;
     font-size: 18px;
     font-size: 1.8rem;
     font-weight: bold;
     margin: 40px 0 30px; }
     @media screen and (min-width: 1024px) {
-      .page-company .aboutCompany h2 {
+      .page-id-14 .aboutCompany h2 {
         font-size: 3rem;
         line-height: 5rem;
         margin: 80px 0 30px; } }
-  .page-company .aboutCompany .tlset01 table {
+  .page-id-14 .aboutCompany .tlset01 table {
     width: 100%; }
     @media screen and (min-width: 1024px) {
-      .page-company .aboutCompany .tlset01 table {
+      .page-id-14 .aboutCompany .tlset01 table {
         margin: 0 auto;
         width: 650px; } }
-  .page-company .aboutCompany .tlset01 th {
+  .page-id-14 .aboutCompany .tlset01 th {
     width: 30%;
     text-align: left;
     padding: 15px;
     vertical-align: middle;
     background-color: #F8F7F3;
     border: solid 1px #F8F7F3; }
-  .page-company .aboutCompany .tlset01 td {
+  .page-id-14 .aboutCompany .tlset01 td {
     width: 70%;
     padding: 10px;
     vertical-align: middle;
     border: solid 1px #F8F7F3;
     line-height: 1.5; }
 
-.page-service .pageHeading {
+.page-id-16 .pageHeading, .page-id-18 .pageHeading, .page-id-22 .pageHeading, .page-id-34 .pageHeading {
   width: 100%;
   height: 150px;
   background-color: #F8F7F3;
   text-align: center; }
   @media screen and (min-width: 1024px) {
-    .page-service .pageHeading {
+    .page-id-16 .pageHeading, .page-id-18 .pageHeading, .page-id-22 .pageHeading, .page-id-34 .pageHeading {
       height: 300px; } }
-  .page-service .pageHeading h1 {
+  .page-id-16 .pageHeading h1, .page-id-18 .pageHeading h1, .page-id-22 .pageHeading h1, .page-id-34 .pageHeading h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
     line-height: 180px;
     color: #411B75; }
     @media screen and (min-width: 1024px) {
-      .page-service .pageHeading h1 {
+      .page-id-16 .pageHeading h1, .page-id-18 .pageHeading h1, .page-id-22 .pageHeading h1, .page-id-34 .pageHeading h1 {
         line-height: 330px;
         font-size: 5rem; } }
 
-.page-service .serviceContents {
+.page-id-16 .serviceContents, .page-id-18 .serviceContents, .page-id-22 .serviceContents, .page-id-34 .serviceContents {
   max-width: 1440px;
   margin: 0 3%; }
   @media screen and (min-width: 1441px) {
-    .page-service .serviceContents {
+    .page-id-16 .serviceContents, .page-id-18 .serviceContents, .page-id-22 .serviceContents, .page-id-34 .serviceContents {
       max-width: 1440px;
       margin: 0 auto; } }
-  .page-service .serviceContents h2 {
+  .page-id-16 .serviceContents h2, .page-id-18 .serviceContents h2, .page-id-22 .serviceContents h2, .page-id-34 .serviceContents h2 {
     text-align: center;
     font-size: 18px;
     font-size: 1.8rem;
     font-weight: bold;
     margin: 40px 0 30px; }
     @media screen and (min-width: 1024px) {
-      .page-service .serviceContents h2 {
+      .page-id-16 .serviceContents h2, .page-id-18 .serviceContents h2, .page-id-22 .serviceContents h2, .page-id-34 .serviceContents h2 {
         text-align: left;
         margin: 0 0 20px;
         font-size: 2rem; } }
     @media screen and (min-width: 1440px) {
-      .page-service .serviceContents h2 {
+      .page-id-16 .serviceContents h2, .page-id-18 .serviceContents h2, .page-id-22 .serviceContents h2, .page-id-34 .serviceContents h2 {
         font-size: 3rem; } }
-  .page-service .serviceContents-logo {
+  .page-id-16 .serviceContents-logo, .page-id-18 .serviceContents-logo, .page-id-22 .serviceContents-logo, .page-id-34 .serviceContents-logo {
     margin: 0 auto;
     width: 100px;
     height: 100px; }
     @media screen and (min-width: 1024px) {
-      .page-service .serviceContents-logo {
+      .page-id-16 .serviceContents-logo, .page-id-18 .serviceContents-logo, .page-id-22 .serviceContents-logo, .page-id-34 .serviceContents-logo {
         margin: 0 0 10px;
         width: 150px;
         height: 150px; } }
-  .page-service .serviceContents-text {
+  .page-id-16 .serviceContents-text, .page-id-18 .serviceContents-text, .page-id-22 .serviceContents-text, .page-id-34 .serviceContents-text {
     margin: 40px 0 30px;
     line-height: 2; }
     @media screen and (min-width: 1024px) {
-      .page-service .serviceContents-text {
+      .page-id-16 .serviceContents-text, .page-id-18 .serviceContents-text, .page-id-22 .serviceContents-text, .page-id-34 .serviceContents-text {
         margin: 0; } }
-  .page-service .serviceContents-image01 {
+  .page-id-16 .serviceContents-image01, .page-id-18 .serviceContents-image01, .page-id-22 .serviceContents-image01, .page-id-34 .serviceContents-image01 {
     background-color: #eee;
     width: 100%;
     height: 150px; }
     @media screen and (min-width: 768px) {
-      .page-service .serviceContents-image01 {
+      .page-id-16 .serviceContents-image01, .page-id-18 .serviceContents-image01, .page-id-22 .serviceContents-image01, .page-id-34 .serviceContents-image01 {
         height: 330px; } }
     @media screen and (min-width: 1024px) {
-      .page-service .serviceContents-image01 {
+      .page-id-16 .serviceContents-image01, .page-id-18 .serviceContents-image01, .page-id-22 .serviceContents-image01, .page-id-34 .serviceContents-image01 {
         height: 500px; } }
-  .page-service .serviceContents-image02 {
+  .page-id-16 .serviceContents-image02, .page-id-18 .serviceContents-image02, .page-id-22 .serviceContents-image02, .page-id-34 .serviceContents-image02 {
     background-color: #eee;
     width: 49%;
     margin-right: 2%;
     height: 150px;
     float: left; }
     @media screen and (min-width: 768px) {
-      .page-service .serviceContents-image02 {
+      .page-id-16 .serviceContents-image02, .page-id-18 .serviceContents-image02, .page-id-22 .serviceContents-image02, .page-id-34 .serviceContents-image02 {
         height: 330px; } }
     @media screen and (min-width: 1024px) {
-      .page-service .serviceContents-image02 {
+      .page-id-16 .serviceContents-image02, .page-id-18 .serviceContents-image02, .page-id-22 .serviceContents-image02, .page-id-34 .serviceContents-image02 {
         height: 230px; } }
     @media screen and (min-width: 1440px) {
-      .page-service .serviceContents-image02 {
+      .page-id-16 .serviceContents-image02, .page-id-18 .serviceContents-image02, .page-id-22 .serviceContents-image02, .page-id-34 .serviceContents-image02 {
         height: 330px; } }
-  .page-service .serviceContents-image03 {
+  .page-id-16 .serviceContents-image03, .page-id-18 .serviceContents-image03, .page-id-22 .serviceContents-image03, .page-id-34 .serviceContents-image03 {
     background-color: #eee;
     width: 49%;
     float: right;
     height: 150px; }
     @media screen and (min-width: 768px) {
-      .page-service .serviceContents-image03 {
+      .page-id-16 .serviceContents-image03, .page-id-18 .serviceContents-image03, .page-id-22 .serviceContents-image03, .page-id-34 .serviceContents-image03 {
         height: 330px; } }
     @media screen and (min-width: 1024px) {
-      .page-service .serviceContents-image03 {
+      .page-id-16 .serviceContents-image03, .page-id-18 .serviceContents-image03, .page-id-22 .serviceContents-image03, .page-id-34 .serviceContents-image03 {
         height: 230px; } }
     @media screen and (min-width: 1440px) {
-      .page-service .serviceContents-image03 {
+      .page-id-16 .serviceContents-image03, .page-id-18 .serviceContents-image03, .page-id-22 .serviceContents-image03, .page-id-34 .serviceContents-image03 {
         height: 330px; } }
-  .page-service .serviceContents-image04 {
+  .page-id-16 .serviceContents-image04, .page-id-18 .serviceContents-image04, .page-id-22 .serviceContents-image04, .page-id-34 .serviceContents-image04 {
     margin-top: 5px;
     background-color: #eee;
     width: 100%;
     height: 150px; }
     @media screen and (min-width: 768px) {
-      .page-service .serviceContents-image04 {
+      .page-id-16 .serviceContents-image04, .page-id-18 .serviceContents-image04, .page-id-22 .serviceContents-image04, .page-id-34 .serviceContents-image04 {
         height: 330px; } }
     @media screen and (min-width: 1024px) {
-      .page-service .serviceContents-image04 {
+      .page-id-16 .serviceContents-image04, .page-id-18 .serviceContents-image04, .page-id-22 .serviceContents-image04, .page-id-34 .serviceContents-image04 {
         height: 400px; } }
     @media screen and (min-width: 1440px) {
-      .page-service .serviceContents-image04 {
+      .page-id-16 .serviceContents-image04, .page-id-18 .serviceContents-image04, .page-id-22 .serviceContents-image04, .page-id-34 .serviceContents-image04 {
         margin-top: 15px;
         height: 500px; } }
   @media screen and (min-width: 1024px) {
-    .page-service .serviceContents .wrapper-top {
+    .page-id-16 .serviceContents .wrapper-top, .page-id-18 .serviceContents .wrapper-top, .page-id-22 .serviceContents .wrapper-top, .page-id-34 .serviceContents .wrapper-top {
       margin-top: 80px; } }
   @media screen and (min-width: 1024px) {
-    .page-service .serviceContents .wrapper-top-left {
+    .page-id-16 .serviceContents .wrapper-top-left, .page-id-18 .serviceContents .wrapper-top-left, .page-id-22 .serviceContents .wrapper-top-left, .page-id-34 .serviceContents .wrapper-top-left {
       width: 30%;
       float: left;
       margin-right: 5%; } }
   @media screen and (min-width: 1024px) {
-    .page-service .serviceContents .wrapper-top-right {
+    .page-id-16 .serviceContents .wrapper-top-right, .page-id-18 .serviceContents .wrapper-top-right, .page-id-22 .serviceContents .wrapper-top-right, .page-id-34 .serviceContents .wrapper-top-right {
       width: 65%;
       float: right; } }
   @media screen and (min-width: 1024px) {
-    .page-service .serviceContents .wrapper-bottom {
+    .page-id-16 .serviceContents .wrapper-bottom, .page-id-18 .serviceContents .wrapper-bottom, .page-id-22 .serviceContents .wrapper-bottom, .page-id-34 .serviceContents .wrapper-bottom {
       margin-top: 60px; } }
   @media screen and (min-width: 1024px) {
-    .page-service .serviceContents .wrapper-bottom-left {
+    .page-id-16 .serviceContents .wrapper-bottom-left, .page-id-18 .serviceContents .wrapper-bottom-left, .page-id-22 .serviceContents .wrapper-bottom-left, .page-id-34 .serviceContents .wrapper-bottom-left {
       width: 47.5%;
       float: left;
       margin-right: 5%; } }
   @media screen and (min-width: 1024px) {
-    .page-service .serviceContents .wrapper-bottom-right {
+    .page-id-16 .serviceContents .wrapper-bottom-right, .page-id-18 .serviceContents .wrapper-bottom-right, .page-id-22 .serviceContents .wrapper-bottom-right, .page-id-34 .serviceContents .wrapper-bottom-right {
       width: 47.5%;
       float: right; } }
-  .page-service .serviceContents .doutor00 {
-    background-image: url("../images/doutor00.jpg");
+  .page-id-16 .serviceContents .doutor00, .page-id-18 .serviceContents .doutor00, .page-id-22 .serviceContents .doutor00, .page-id-34 .serviceContents .doutor00 {
+    background-image: url("images/doutor00.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .doutor01 {
-    background-image: url("../images/doutor01.jpg");
+  .page-id-16 .serviceContents .doutor01, .page-id-18 .serviceContents .doutor01, .page-id-22 .serviceContents .doutor01, .page-id-34 .serviceContents .doutor01 {
+    background-image: url("images/doutor01.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .doutor02 {
-    background-image: url("../images/doutor02.jpg");
+  .page-id-16 .serviceContents .doutor02, .page-id-18 .serviceContents .doutor02, .page-id-22 .serviceContents .doutor02, .page-id-34 .serviceContents .doutor02 {
+    background-image: url("images/doutor02.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .doutor03 {
-    background-image: url("../images/doutor03.jpg");
+  .page-id-16 .serviceContents .doutor03, .page-id-18 .serviceContents .doutor03, .page-id-22 .serviceContents .doutor03, .page-id-34 .serviceContents .doutor03 {
+    background-image: url("images/doutor03.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .doutor04 {
-    background-image: url("../images/doutor04.jpg");
+  .page-id-16 .serviceContents .doutor04, .page-id-18 .serviceContents .doutor04, .page-id-22 .serviceContents .doutor04, .page-id-34 .serviceContents .doutor04 {
+    background-image: url("images/doutor04.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .otoya00 {
-    background-image: url("../images/otoya00.jpg");
+  .page-id-16 .serviceContents .otoya00, .page-id-18 .serviceContents .otoya00, .page-id-22 .serviceContents .otoya00, .page-id-34 .serviceContents .otoya00 {
+    background-image: url("images/otoya00.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .otoya01 {
-    background-image: url("../images/otoya01.jpg");
+  .page-id-16 .serviceContents .otoya01, .page-id-18 .serviceContents .otoya01, .page-id-22 .serviceContents .otoya01, .page-id-34 .serviceContents .otoya01 {
+    background-image: url("images/otoya01.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .otoya02 {
-    background-image: url("../images/otoya02.jpg");
+  .page-id-16 .serviceContents .otoya02, .page-id-18 .serviceContents .otoya02, .page-id-22 .serviceContents .otoya02, .page-id-34 .serviceContents .otoya02 {
+    background-image: url("images/otoya02.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .otoya03 {
-    background-image: url("../images/otoya03.jpg");
+  .page-id-16 .serviceContents .otoya03, .page-id-18 .serviceContents .otoya03, .page-id-22 .serviceContents .otoya03, .page-id-34 .serviceContents .otoya03 {
+    background-image: url("images/otoya03.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .otoya04 {
-    background-image: url("../images/otoya04.jpg");
+  .page-id-16 .serviceContents .otoya04, .page-id-18 .serviceContents .otoya04, .page-id-22 .serviceContents .otoya04, .page-id-34 .serviceContents .otoya04 {
+    background-image: url("images/otoya04.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .pronto00 {
-    background-image: url("../images/pronto00.jpg");
+  .page-id-16 .serviceContents .pronto00, .page-id-18 .serviceContents .pronto00, .page-id-22 .serviceContents .pronto00, .page-id-34 .serviceContents .pronto00 {
+    background-image: url("images/pronto00.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .pronto01 {
-    background-image: url("../images/pronto01.jpg");
+  .page-id-16 .serviceContents .pronto01, .page-id-18 .serviceContents .pronto01, .page-id-22 .serviceContents .pronto01, .page-id-34 .serviceContents .pronto01 {
+    background-image: url("images/pronto01.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .pronto02 {
-    background-image: url("../images/pronto02.jpg");
+  .page-id-16 .serviceContents .pronto02, .page-id-18 .serviceContents .pronto02, .page-id-22 .serviceContents .pronto02, .page-id-34 .serviceContents .pronto02 {
+    background-image: url("images/pronto02.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .pronto03 {
-    background-image: url("../images/pronto03.jpg");
+  .page-id-16 .serviceContents .pronto03, .page-id-18 .serviceContents .pronto03, .page-id-22 .serviceContents .pronto03, .page-id-34 .serviceContents .pronto03 {
+    background-image: url("images/pronto03.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .pronto04 {
-    background-image: url("../images/pronto04.jpg");
+  .page-id-16 .serviceContents .pronto04, .page-id-18 .serviceContents .pronto04, .page-id-22 .serviceContents .pronto04, .page-id-34 .serviceContents .pronto04 {
+    background-image: url("images/pronto04.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .jittan00 {
-    background-image: url("../images/jittan00.jpg");
+  .page-id-16 .serviceContents .jittan00, .page-id-18 .serviceContents .jittan00, .page-id-22 .serviceContents .jittan00, .page-id-34 .serviceContents .jittan00 {
+    background-image: url("images/jittan00.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .jittan01 {
-    background-image: url("../images/jittan01.jpg");
+  .page-id-16 .serviceContents .jittan01, .page-id-18 .serviceContents .jittan01, .page-id-22 .serviceContents .jittan01, .page-id-34 .serviceContents .jittan01 {
+    background-image: url("images/jittan01.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .jittan02 {
-    background-image: url("../images/jittan02.jpg");
+  .page-id-16 .serviceContents .jittan02, .page-id-18 .serviceContents .jittan02, .page-id-22 .serviceContents .jittan02, .page-id-34 .serviceContents .jittan02 {
+    background-image: url("images/jittan02.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .jittan03 {
-    background-image: url("../images/jittan03.jpg");
+  .page-id-16 .serviceContents .jittan03, .page-id-18 .serviceContents .jittan03, .page-id-22 .serviceContents .jittan03, .page-id-34 .serviceContents .jittan03 {
+    background-image: url("images/jittan03.jpg");
     background-size: cover;
     background-position: center; }
-  .page-service .serviceContents .jittan04 {
-    background-image: url("../images/jittan04.jpg");
+  .page-id-16 .serviceContents .jittan04, .page-id-18 .serviceContents .jittan04, .page-id-22 .serviceContents .jittan04, .page-id-34 .serviceContents .jittan04 {
+    background-image: url("images/jittan04.jpg");
     background-size: cover;
     background-position: center; }
 
-.page-service .serviceFooter {
+.page-id-16 .serviceFooter, .page-id-18 .serviceFooter, .page-id-22 .serviceFooter, .page-id-34 .serviceFooter {
   margin: 20px 0 60px;
   padding: 10px;
   background-color: #eee; }
   @media screen and (min-width: 1441px) {
-    .page-service .serviceFooter-nav {
+    .page-id-16 .serviceFooter-nav, .page-id-18 .serviceFooter-nav, .page-id-22 .serviceFooter-nav, .page-id-34 .serviceFooter-nav {
       max-width: 1440px;
       margin: 0 auto; } }
-  .page-service .serviceFooter-nav li {
+  .page-id-16 .serviceFooter-nav li, .page-id-18 .serviceFooter-nav li, .page-id-22 .serviceFooter-nav li, .page-id-34 .serviceFooter-nav li {
     position: relative;
     background-color: #fff;
-    margin: 10px 0; }
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out; }
     @media screen and (min-width: 1024px) {
-      .page-service .serviceFooter-nav li {
+      .page-id-16 .serviceFooter-nav li:hover, .page-id-18 .serviceFooter-nav li:hover, .page-id-22 .serviceFooter-nav li:hover, .page-id-34 .serviceFooter-nav li:hover {
+        transform: scale(1.05);
+        box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); } }
+    @media screen and (min-width: 1024px) {
+      .page-id-16 .serviceFooter-nav li, .page-id-18 .serviceFooter-nav li, .page-id-22 .serviceFooter-nav li, .page-id-34 .serviceFooter-nav li {
         width: 23%;
         margin: 20px 2.66% 20px 0;
         float: left; }
-        .page-service .serviceFooter-nav li:last-child {
+        .page-id-16 .serviceFooter-nav li:last-child, .page-id-18 .serviceFooter-nav li:last-child, .page-id-22 .serviceFooter-nav li:last-child, .page-id-34 .serviceFooter-nav li:last-child {
           margin-right: 0; } }
-    .page-service .serviceFooter-nav li a {
+    .page-id-16 .serviceFooter-nav li a, .page-id-18 .serviceFooter-nav li a, .page-id-22 .serviceFooter-nav li a, .page-id-34 .serviceFooter-nav li a {
       margin-left: 15px;
       display: block;
       line-height: 40px; }
       @media screen and (min-width: 1024px) {
-        .page-service .serviceFooter-nav li a {
+        .page-id-16 .serviceFooter-nav li a, .page-id-18 .serviceFooter-nav li a, .page-id-22 .serviceFooter-nav li a, .page-id-34 .serviceFooter-nav li a {
           font-size: 1.2rem;
           line-height: 60px; } }
 
-.page-news .pageHeading {
+.blog main {
+  min-height: 75vh; }
+
+.blog .pageHeading {
   width: 100%;
   height: 150px;
   background-color: #F8F7F3;
   text-align: center; }
   @media screen and (min-width: 1024px) {
-    .page-news .pageHeading {
+    .blog .pageHeading {
       height: 300px; } }
-  .page-news .pageHeading h1 {
+  .blog .pageHeading h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
     line-height: 180px;
     color: #411B75; }
     @media screen and (min-width: 1024px) {
-      .page-news .pageHeading h1 {
+      .blog .pageHeading h1 {
         line-height: 330px;
         font-size: 5rem; } }
 
-.page-news .newsContents {
+.blog .newsContents {
   margin: 0 3%; }
   @media screen and (min-width: 1024px) {
-    .page-news .newsContents {
+    .blog .newsContents {
       width: 700px;
       margin: 0 auto; } }
-  .page-news .newsContents h2 {
+  .blog .newsContents h2 {
     text-align: center;
     font-size: 18px;
     font-size: 1.8rem;
     font-weight: bold;
     margin: 30px 0 20px; }
-  .page-news .newsContents ul {
+    @media screen and (min-width: 1024px) {
+      .blog .newsContents h2 {
+        font-size: 3rem;
+        line-height: 5rem;
+        margin: 80px 0 30px; } }
+  .blog .newsContents ul {
     margin: 20px 0 60px; }
-    .page-news .newsContents ul li {
+    .blog .newsContents ul li {
       position: relative;
-      padding: 10px;
       margin-bottom: 15px;
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
-      .page-news .newsContents ul li time {
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.25s ease-in-out; }
+      @media screen and (min-width: 1024px) {
+        .blog .newsContents ul li:hover {
+          transform: scale(1.05);
+          box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); } }
+      .blog .newsContents ul li time {
         font-size: 8px;
         font-size: 0.8rem;
         line-height: 1.2; }
-      .page-news .newsContents ul li h3 {
+      .blog .newsContents ul li h3 {
         font-size: 14px;
         font-size: 1.4rem;
         line-height: 2; }
+      .blog .newsContents ul li a {
+        display: block;
+        padding: 10px; }
 
-.page-article .pageHeading {
+.single main {
+  min-height: 75vh; }
+
+.single .pageHeading {
   width: 100%;
   height: 150px;
   background-color: #F8F7F3;
   text-align: center; }
   @media screen and (min-width: 1024px) {
-    .page-article .pageHeading {
+    .single .pageHeading {
       height: 300px; } }
-  .page-article .pageHeading h1 {
+  .single .pageHeading h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
     line-height: 180px;
     color: #411B75; }
     @media screen and (min-width: 1024px) {
-      .page-article .pageHeading h1 {
+      .single .pageHeading h1 {
         line-height: 330px;
         font-size: 5rem; } }
 
 @media screen and (min-width: 1024px) {
-  .page-article .articleWrapper {
+  .single .articleWrapper {
     width: 950px;
     margin: 80px auto; } }
 
-.page-article article {
+.single article {
   margin: 40px 3% 60px;
   border-top: 1px solid #411B75; }
   @media screen and (min-width: 1024px) {
-    .page-article article {
+    .single article {
       width: 650px;
       margin: 0 40px 0 0;
       float: left; } }
-  .page-article article .articleContents {
+  .single article .articleContents {
     padding-top: 20px; }
-    .page-article article .articleContents time {
+    .single article .articleContents time {
       font-size: 8px;
       font-size: 0.8rem;
       line-height: 1.2; }
-    .page-article article .articleContents h2 {
+    .single article .articleContents h2 {
       font-size: 14px;
       font-size: 1.4rem;
       line-height: 2; }
       @media screen and (min-width: 1024px) {
-        .page-article article .articleContents h2 {
+        .single article .articleContents h2 {
           font-size: 2rem; } }
-    .page-article article .articleContents img {
+    .single article .articleContents img {
       width: 100%;
       height: auto; }
       @media screen and (min-width: 1024px) {
-        .page-article article .articleContents img {
+        .single article .articleContents img {
           max-width: 650px; } }
-    .page-article article .articleContents p {
+    .single article .articleContents p {
       margin: 20px 0;
       line-height: 2; }
 
-.page-article .archive {
+.single .archive {
   display: none; }
   @media screen and (min-width: 1024px) {
-    .page-article .archive {
+    .single .archive {
       border-top: 1px solid #411B75;
       width: 260px;
       display: block;
       float: right; }
-      .page-article .archive h2 {
+      .single .archive h2 {
         text-align: center;
         padding-top: 40px;
         color: #411B75; }
-      .page-article .archive ul {
+      .single .archive ul {
         margin: 20px 0; }
-        .page-article .archive ul li {
+        .single .archive ul li {
           position: relative;
-          padding: 10px;
           margin-bottom: 15px;
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
-          .page-article .archive ul li time {
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+          transition: all 0.25s ease-in-out; } }
+      @media screen and (min-width: 1024px) and (min-width: 1024px) {
+        .single .archive ul li:hover {
+          transform: scale(1.05);
+          box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); } }
+  @media screen and (min-width: 1024px) {
+          .single .archive ul li time {
             font-size: 0.8rem;
             line-height: 1.2; }
-          .page-article .archive ul li h3 {
+          .single .archive ul li h3 {
             font-size: 1.4rem;
-            line-height: 2; } }
+            line-height: 2; }
+          .single .archive ul li a {
+            display: block;
+            padding: 10px; } }
 
-.page-recruit-messege .pageHeading {
+.page-id-25 .pageHeading {
   width: 100%;
   height: 150px;
   background-color: #F8F7F3;
   text-align: center; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-messege .pageHeading {
+    .page-id-25 .pageHeading {
       height: 300px; } }
-  .page-recruit-messege .pageHeading h1 {
+  .page-id-25 .pageHeading h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
     line-height: 180px;
     color: #411B75; }
     @media screen and (min-width: 1024px) {
-      .page-recruit-messege .pageHeading h1 {
+      .page-id-25 .pageHeading h1 {
         line-height: 330px;
         font-size: 5rem; } }
 
 @media screen and (min-width: 1024px) {
-  .page-recruit-messege .recruitMessage {
+  .page-id-25 .recruitMessage {
     margin: 0 auto; } }
 
-.page-recruit-messege .recruitMessage h2 {
+.page-id-25 .recruitMessage h2 {
   text-align: center;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: bold;
   margin: 40px 0 30px; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-messege .recruitMessage h2 {
+    .page-id-25 .recruitMessage h2 {
       font-size: 3rem;
       line-height: 5rem;
       margin: 80px 0 30px; } }
 
-.page-recruit-messege .recruitMessage-image {
-  background-image: url("../images/recruit-vision.jpg");
+.page-id-25 .recruitMessage-image {
+  background-image: url("images/recruit-vision.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 200px;
   margin: 20px 0 60px; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-messege .recruitMessage-image {
+    .page-id-25 .recruitMessage-image {
       height: 500px; } }
 
-.page-recruit-messege .recruitMessage-text {
+.page-id-25 .recruitMessage-text {
   margin: 10px 3%;
   line-height: 20px;
   line-height: 2rem; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-messege .recruitMessage-text {
+    .page-id-25 .recruitMessage-text {
       width: 650px;
       margin: 10px auto;
       line-height: 2; } }
 
-.page-recruit-interview .pageHeading {
+.page-id-31 .pageHeading, .page-id-41 .pageHeading, .page-id-43 .pageHeading, .page-id-45 .pageHeading, .page-id-48 .pageHeading {
   width: 100%;
   height: 150px;
   background-color: #F8F7F3;
   text-align: center; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-interview .pageHeading {
+    .page-id-31 .pageHeading, .page-id-41 .pageHeading, .page-id-43 .pageHeading, .page-id-45 .pageHeading, .page-id-48 .pageHeading {
       height: 300px; } }
-  .page-recruit-interview .pageHeading h1 {
+  .page-id-31 .pageHeading h1, .page-id-41 .pageHeading h1, .page-id-43 .pageHeading h1, .page-id-45 .pageHeading h1, .page-id-48 .pageHeading h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
     line-height: 180px;
     color: #411B75; }
     @media screen and (min-width: 1024px) {
-      .page-recruit-interview .pageHeading h1 {
+      .page-id-31 .pageHeading h1, .page-id-41 .pageHeading h1, .page-id-43 .pageHeading h1, .page-id-45 .pageHeading h1, .page-id-48 .pageHeading h1 {
         line-height: 330px;
         font-size: 5rem; } }
 
-.page-recruit-interview .content-bg {
+.page-id-31 .content-bg, .page-id-41 .content-bg, .page-id-43 .content-bg, .page-id-45 .content-bg, .page-id-48 .content-bg {
   width: 100%;
   height: auto;
   margin: 40px 0;
@@ -1782,75 +1827,75 @@ heading
   background: linear-gradient(90deg, #fff 0%, #fff 20%, #F3EFF8 20%, #F3EFF8 100%);
   z-index: -1; }
 
-.page-recruit-interview .contentDiscription {
+.page-id-31 .contentDiscription, .page-id-41 .contentDiscription, .page-id-43 .contentDiscription, .page-id-45 .contentDiscription, .page-id-48 .contentDiscription {
   margin: 0 3%; }
-  .page-recruit-interview .contentDiscription h2 {
+  .page-id-31 .contentDiscription h2, .page-id-41 .contentDiscription h2, .page-id-43 .contentDiscription h2, .page-id-45 .contentDiscription h2, .page-id-48 .contentDiscription h2 {
     font-size: 18px;
     font-size: 1.8rem;
     font-weight: bold;
     margin: 30px 0; }
     @media screen and (min-width: 1024px) {
-      .page-recruit-interview .contentDiscription h2 {
+      .page-id-31 .contentDiscription h2, .page-id-41 .contentDiscription h2, .page-id-43 .contentDiscription h2, .page-id-45 .contentDiscription h2, .page-id-48 .contentDiscription h2 {
         font-size: 3rem;
         line-height: 5rem;
         margin: 30px 0; } }
-  .page-recruit-interview .contentDiscription-text {
+  .page-id-31 .contentDiscription-text, .page-id-41 .contentDiscription-text, .page-id-43 .contentDiscription-text, .page-id-45 .contentDiscription-text, .page-id-48 .contentDiscription-text {
     margin: 10px 0 40px;
     line-height: 20px;
     line-height: 2rem; }
 
-.page-recruit-interview .interviewBoxes li:not(:last-child) {
+.page-id-31 .interviewBoxes li:not(:last-child), .page-id-41 .interviewBoxes li:not(:last-child), .page-id-43 .interviewBoxes li:not(:last-child), .page-id-45 .interviewBoxes li:not(:last-child), .page-id-48 .interviewBoxes li:not(:last-child) {
   margin-bottom: 30px; }
 
 @media screen and (min-width: 1024px) {
-  .page-recruit-interview .interviewBoxes {
+  .page-id-31 .interviewBoxes, .page-id-41 .interviewBoxes, .page-id-43 .interviewBoxes, .page-id-45 .interviewBoxes, .page-id-48 .interviewBoxes {
     margin: 0 3%; }
-    .page-recruit-interview .interviewBoxes li:not(:last-child) {
+    .page-id-31 .interviewBoxes li:not(:last-child), .page-id-41 .interviewBoxes li:not(:last-child), .page-id-43 .interviewBoxes li:not(:last-child), .page-id-45 .interviewBoxes li:not(:last-child), .page-id-48 .interviewBoxes li:not(:last-child) {
       margin-right: 2.66%; } }
 
-.page-recruit-interview .interviewBox {
+.page-id-31 .interviewBox, .page-id-41 .interviewBox, .page-id-43 .interviewBox, .page-id-45 .interviewBox, .page-id-48 .interviewBox {
   margin: 0 3%; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-interview .interviewBox {
+    .page-id-31 .interviewBox, .page-id-41 .interviewBox, .page-id-43 .interviewBox, .page-id-45 .interviewBox, .page-id-48 .interviewBox {
       margin: 0 auto;
       width: 23%;
       float: left;
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
       transition: all 0.25s ease-in-out; }
-      .page-recruit-interview .interviewBox:hover {
+      .page-id-31 .interviewBox:hover, .page-id-41 .interviewBox:hover, .page-id-43 .interviewBox:hover, .page-id-45 .interviewBox:hover, .page-id-48 .interviewBox:hover {
         box-shadow: 0 5px 50px rgba(0, 0, 0, 0.1);
         transform: scale(1.05); } }
-  .page-recruit-interview .interviewBox a {
+  .page-id-31 .interviewBox a, .page-id-41 .interviewBox a, .page-id-43 .interviewBox a, .page-id-45 .interviewBox a, .page-id-48 .interviewBox a {
     display: block; }
-  .page-recruit-interview .interviewBox-disc {
+  .page-id-31 .interviewBox-disc, .page-id-41 .interviewBox-disc, .page-id-43 .interviewBox-disc, .page-id-45 .interviewBox-disc, .page-id-48 .interviewBox-disc {
     background-color: #fff;
     padding: 20px; }
-  .page-recruit-interview .interviewBox-image {
+  .page-id-31 .interviewBox-image, .page-id-41 .interviewBox-image, .page-id-43 .interviewBox-image, .page-id-45 .interviewBox-image, .page-id-48 .interviewBox-image {
     width: 100%;
-    height: 300px;
+    height: 350px;
     background-color: #eee; }
     @media screen and (min-width: 375px) {
-      .page-recruit-interview .interviewBox-image {
-        height: 350px; } }
-    @media screen and (min-width: 425px) {
-      .page-recruit-interview .interviewBox-image {
+      .page-id-31 .interviewBox-image, .page-id-41 .interviewBox-image, .page-id-43 .interviewBox-image, .page-id-45 .interviewBox-image, .page-id-48 .interviewBox-image {
         height: 400px; } }
+    @media screen and (min-width: 414px) {
+      .page-id-31 .interviewBox-image, .page-id-41 .interviewBox-image, .page-id-43 .interviewBox-image, .page-id-45 .interviewBox-image, .page-id-48 .interviewBox-image {
+        height: 450px; } }
     @media screen and (min-width: 768px) {
-      .page-recruit-interview .interviewBox-image {
-        height: 600px; } }
+      .page-id-31 .interviewBox-image, .page-id-41 .interviewBox-image, .page-id-43 .interviewBox-image, .page-id-45 .interviewBox-image, .page-id-48 .interviewBox-image {
+        height: 650px; } }
     @media screen and (min-width: 1024px) {
-      .page-recruit-interview .interviewBox-image {
+      .page-id-31 .interviewBox-image, .page-id-41 .interviewBox-image, .page-id-43 .interviewBox-image, .page-id-45 .interviewBox-image, .page-id-48 .interviewBox-image {
         height: 230px; } }
     @media screen and (min-width: 1440px) {
-      .page-recruit-interview .interviewBox-image {
+      .page-id-31 .interviewBox-image, .page-id-41 .interviewBox-image, .page-id-43 .interviewBox-image, .page-id-45 .interviewBox-image, .page-id-48 .interviewBox-image {
         height: 320px; } }
     @media screen and (min-width: 1700px) {
-      .page-recruit-interview .interviewBox-image {
+      .page-id-31 .interviewBox-image, .page-id-41 .interviewBox-image, .page-id-43 .interviewBox-image, .page-id-45 .interviewBox-image, .page-id-48 .interviewBox-image {
         height: 500px; } }
     @media screen and (min-width: 1920px) {
-      .page-recruit-interview .interviewBox-image {
+      .page-id-31 .interviewBox-image, .page-id-41 .interviewBox-image, .page-id-43 .interviewBox-image, .page-id-45 .interviewBox-image, .page-id-48 .interviewBox-image {
         height: 600px; } }
-  .page-recruit-interview .interviewBox-name {
+  .page-id-31 .interviewBox-name, .page-id-41 .interviewBox-name, .page-id-43 .interviewBox-name, .page-id-45 .interviewBox-name, .page-id-48 .interviewBox-name {
     font-size: 20px;
     font-size: 2rem;
     font-weight: bold;
@@ -1858,21 +1903,21 @@ heading
     line-height: 40px;
     line-height: 4rem; }
 
-.page-recruit-interview .discriptionBox {
+.page-id-31 .discriptionBox, .page-id-41 .discriptionBox, .page-id-43 .discriptionBox, .page-id-45 .discriptionBox, .page-id-48 .discriptionBox {
   position: relative;
   margin: 40px 3% 200px; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-interview .discriptionBox {
-      margin: 0 auto 200px;
+    .page-id-31 .discriptionBox, .page-id-41 .discriptionBox, .page-id-43 .discriptionBox, .page-id-45 .discriptionBox, .page-id-48 .discriptionBox {
+      margin: 0 auto 250px;
       width: 700px; } }
-  .page-recruit-interview .discriptionBox-image {
+  .page-id-31 .discriptionBox-image, .page-id-41 .discriptionBox-image, .page-id-43 .discriptionBox-image, .page-id-45 .discriptionBox-image, .page-id-48 .discriptionBox-image {
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-color: #eee; }
     @media screen and (min-width: 1024px) {
-      .page-recruit-interview .discriptionBox-image {
-        height: 400px; } }
-  .page-recruit-interview .discriptionBox .careerCard {
+      .page-id-31 .discriptionBox-image, .page-id-41 .discriptionBox-image, .page-id-43 .discriptionBox-image, .page-id-45 .discriptionBox-image, .page-id-48 .discriptionBox-image {
+        height: 450px; } }
+  .page-id-31 .discriptionBox .careerCard, .page-id-41 .discriptionBox .careerCard, .page-id-43 .discriptionBox .careerCard, .page-id-45 .discriptionBox .careerCard, .page-id-48 .discriptionBox .careerCard {
     position: absolute;
     top: 80%;
     margin: 0 5%;
@@ -1880,27 +1925,32 @@ heading
     background-color: #534164;
     color: #fff; }
     @media screen and (min-width: 1024px) {
-      .page-recruit-interview .discriptionBox .careerCard {
-        padding: 30px; } }
-    .page-recruit-interview .discriptionBox .careerCard-name {
+      .page-id-31 .discriptionBox .careerCard, .page-id-41 .discriptionBox .careerCard, .page-id-43 .discriptionBox .careerCard, .page-id-45 .discriptionBox .careerCard, .page-id-48 .discriptionBox .careerCard {
+        margin: 0 10%;
+        padding: 50px; } }
+    .page-id-31 .discriptionBox .careerCard-name, .page-id-41 .discriptionBox .careerCard-name, .page-id-43 .discriptionBox .careerCard-name, .page-id-45 .discriptionBox .careerCard-name, .page-id-48 .discriptionBox .careerCard-name {
       font-size: 20px;
       font-size: 2rem;
       font-weight: bold;
       margin-left: 5px;
       line-height: 40px;
       line-height: 4rem; }
-    .page-recruit-interview .discriptionBox .careerCard-text {
+    .page-id-31 .discriptionBox .careerCard-text, .page-id-41 .discriptionBox .careerCard-text, .page-id-43 .discriptionBox .careerCard-text, .page-id-45 .discriptionBox .careerCard-text, .page-id-48 .discriptionBox .careerCard-text {
       margin: 20px 0;
       font-size: 10px;
       font-size: 1rem;
       line-height: 1.6; }
+      @media screen and (min-width: 1024px) {
+        .page-id-31 .discriptionBox .careerCard-text, .page-id-41 .discriptionBox .careerCard-text, .page-id-43 .discriptionBox .careerCard-text, .page-id-45 .discriptionBox .careerCard-text, .page-id-48 .discriptionBox .careerCard-text {
+          font-size: 1.2rem;
+          line-height: 1.6; } }
 
 @media screen and (min-width: 1024px) {
-  .page-recruit-interview .question {
+  .page-id-31 .question, .page-id-41 .question, .page-id-43 .question, .page-id-45 .question, .page-id-48 .question {
     width: 700px;
     margin: 0 auto; } }
 
-.page-recruit-interview .questionCols-title {
+.page-id-31 .questionCols-title, .page-id-41 .questionCols-title, .page-id-43 .questionCols-title, .page-id-45 .questionCols-title, .page-id-48 .questionCols-title {
   padding-left: 3%;
   background-color: #F3EFF8;
   font-size: 16px;
@@ -1910,40 +1960,119 @@ heading
   line-height: 3rem;
   padding: 10px; }
 
-.page-recruit-interview .questionCols-answer {
+.page-id-31 .questionCols-answer, .page-id-41 .questionCols-answer, .page-id-43 .questionCols-answer, .page-id-45 .questionCols-answer, .page-id-48 .questionCols-answer {
   margin: 20px 3%;
   line-height: 20px;
   line-height: 2rem; }
 
-.page-recruit-interview .questionCols-image {
+.page-id-31 .questionCols-image, .page-id-41 .questionCols-image, .page-id-43 .questionCols-image, .page-id-45 .questionCols-image, .page-id-48 .questionCols-image {
   width: 100%;
-  height: 150px;
-  background-color: #eee;
+  height: 300px;
   margin-bottom: 40px; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-interview .questionCols-image {
+    .page-id-31 .questionCols-image, .page-id-41 .questionCols-image, .page-id-43 .questionCols-image, .page-id-45 .questionCols-image, .page-id-48 .questionCols-image {
       height: 400px; } }
 
-.page-recruit-itoya12 .pageHeading {
+.page-id-31 .iv1-t, .page-id-41 .iv1-t, .page-id-43 .iv1-t, .page-id-45 .iv1-t, .page-id-48 .iv1-t {
+  background-image: url("images/iv1-t.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv1-1, .page-id-41 .iv1-1, .page-id-43 .iv1-1, .page-id-45 .iv1-1, .page-id-48 .iv1-1 {
+  background-image: url("images/iv1-1.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv1-2, .page-id-41 .iv1-2, .page-id-43 .iv1-2, .page-id-45 .iv1-2, .page-id-48 .iv1-2 {
+  background-image: url("images/iv1-2.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv1-3, .page-id-41 .iv1-3, .page-id-43 .iv1-3, .page-id-45 .iv1-3, .page-id-48 .iv1-3 {
+  background-image: url("images/iv1-3.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv2-t, .page-id-41 .iv2-t, .page-id-43 .iv2-t, .page-id-45 .iv2-t, .page-id-48 .iv2-t {
+  background-image: url("images/iv2-t.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv2-1, .page-id-41 .iv2-1, .page-id-43 .iv2-1, .page-id-45 .iv2-1, .page-id-48 .iv2-1 {
+  background-image: url("images/iv2-1.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv2-2, .page-id-41 .iv2-2, .page-id-43 .iv2-2, .page-id-45 .iv2-2, .page-id-48 .iv2-2 {
+  background-image: url("images/iv2-2.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv2-3, .page-id-41 .iv2-3, .page-id-43 .iv2-3, .page-id-45 .iv2-3, .page-id-48 .iv2-3 {
+  background-image: url("images/iv2-3.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv3-t, .page-id-41 .iv3-t, .page-id-43 .iv3-t, .page-id-45 .iv3-t, .page-id-48 .iv3-t {
+  background-image: url("images/iv3-t.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv3-1, .page-id-41 .iv3-1, .page-id-43 .iv3-1, .page-id-45 .iv3-1, .page-id-48 .iv3-1 {
+  background-image: url("images/iv3-1.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv3-2, .page-id-41 .iv3-2, .page-id-43 .iv3-2, .page-id-45 .iv3-2, .page-id-48 .iv3-2 {
+  background-image: url("images/iv3-2.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv3-3, .page-id-41 .iv3-3, .page-id-43 .iv3-3, .page-id-45 .iv3-3, .page-id-48 .iv3-3 {
+  background-image: url("images/iv3-3.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv4-t, .page-id-41 .iv4-t, .page-id-43 .iv4-t, .page-id-45 .iv4-t, .page-id-48 .iv4-t {
+  background-image: url("images/iv4-t.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv4-1, .page-id-41 .iv4-1, .page-id-43 .iv4-1, .page-id-45 .iv4-1, .page-id-48 .iv4-1 {
+  background-image: url("images/iv4-1.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv4-2, .page-id-41 .iv4-2, .page-id-43 .iv4-2, .page-id-45 .iv4-2, .page-id-48 .iv4-2 {
+  background-image: url("images/iv4-2.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-31 .iv4-3, .page-id-41 .iv4-3, .page-id-43 .iv4-3, .page-id-45 .iv4-3, .page-id-48 .iv4-3 {
+  background-image: url("images/iv4-3.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.page-id-27 .pageHeading {
   width: 100%;
   height: 150px;
   background-color: #F8F7F3;
   text-align: center; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-itoya12 .pageHeading {
+    .page-id-27 .pageHeading {
       height: 300px; } }
-  .page-recruit-itoya12 .pageHeading h1 {
+  .page-id-27 .pageHeading h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
     line-height: 180px;
     color: #411B75; }
     @media screen and (min-width: 1024px) {
-      .page-recruit-itoya12 .pageHeading h1 {
+      .page-id-27 .pageHeading h1 {
         line-height: 330px;
         font-size: 5rem; } }
 
-.page-recruit-itoya12 .contentDiscription h2 {
+.page-id-27 .contentDiscription h2 {
   margin: 0 3%;
   text-align: center;
   font-size: 18px;
@@ -1951,24 +2080,24 @@ heading
   font-weight: bold;
   margin: 40px 0 30px; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-itoya12 .contentDiscription h2 {
+    .page-id-27 .contentDiscription h2 {
       font-size: 3rem;
       line-height: 5rem;
       margin: 80px 0 30px; } }
 
-.page-recruit-itoya12 .contentDiscription p {
+.page-id-27 .contentDiscription p {
   margin: 20px 3%;
   text-align: center; }
 
-.page-recruit-itoya12 .contentDiscription ul {
+.page-id-27 .contentDiscription ul {
   background-color: #F3EFF8; }
-  .page-recruit-itoya12 .contentDiscription ul li {
+  .page-id-27 .contentDiscription ul li {
     padding: 10px;
     float: left;
     width: 50%;
     line-height: 30px;
     letter-spacing: 1px; }
-    .page-recruit-itoya12 .contentDiscription ul li span {
+    .page-id-27 .contentDiscription ul li span {
       text-align: center;
       margin-right: 5px;
       float: left;
@@ -1977,27 +2106,27 @@ heading
       background-color: #411B75;
       color: #fff; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-itoya12 .contentDiscription ul {
+    .page-id-27 .contentDiscription ul {
       display: none; } }
 
-.page-recruit-itoya12 .feature12 {
+.page-id-27 .feature12 {
   margin: 40px 3%; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-itoya12 .feature12 {
+    .page-id-27 .feature12 {
       margin: 40px auto;
       width: 990px; } }
-  .page-recruit-itoya12 .feature12 li {
+  .page-id-27 .feature12 li {
     border: 1px solid #eee;
     margin-bottom: 30px; }
     @media screen and (min-width: 1024px) {
-      .page-recruit-itoya12 .feature12 li {
+      .page-id-27 .feature12 li {
         float: left;
         width: 320px;
         margin-right: 15px;
         height: 410px; }
-        .page-recruit-itoya12 .feature12 li:nth-child(3n) {
+        .page-id-27 .feature12 li:nth-child(3n) {
           margin-right: 0; } }
-  .page-recruit-itoya12 .feature12-no {
+  .page-id-27 .feature12-no {
     text-align: center;
     line-height: 40px;
     margin: 30px auto;
@@ -2006,133 +2135,133 @@ heading
     border-radius: 100%;
     background-color: #411B75;
     color: #fff; }
-  .page-recruit-itoya12 .feature12-image {
+  .page-id-27 .feature12-image {
     background-color: #eee;
     margin: 0 auto;
     width: 70px;
     height: 70px; }
-  .page-recruit-itoya12 .feature12-title {
+  .page-id-27 .feature12-title {
     text-align: center;
     font-size: 18px;
     font-size: 1.8rem;
     font-weight: bold;
     margin: 30px 0;
     color: #411B75; }
-  .page-recruit-itoya12 .feature12-text {
+  .page-id-27 .feature12-text {
     margin: 30px 10%;
     line-height: 1.8; }
     @media screen and (min-width: 1024px) {
-      .page-recruit-itoya12 .feature12-text {
+      .page-id-27 .feature12-text {
         font-size: 1.3rem; } }
-  .page-recruit-itoya12 .feature12 .pctg-01 {
-    background-image: url("../images/pctg-01.jpeg");
+  .page-id-27 .feature12 .pctg-01 {
+    background-image: url("images/pctg-01.jpeg");
     background-size: cover;
     background-position: center; }
-  .page-recruit-itoya12 .feature12 .pctg-02 {
-    background-image: url("../images/pctg-02.jpeg");
+  .page-id-27 .feature12 .pctg-02 {
+    background-image: url("images/pctg-02.jpeg");
     background-size: cover;
     background-position: center; }
-  .page-recruit-itoya12 .feature12 .pctg-03 {
-    background-image: url("../images/pctg-03.jpeg");
+  .page-id-27 .feature12 .pctg-03 {
+    background-image: url("images/pctg-03.jpeg");
     background-size: cover;
     background-position: center; }
-  .page-recruit-itoya12 .feature12 .pctg-04 {
-    background-image: url("../images/pctg-04.jpeg");
+  .page-id-27 .feature12 .pctg-04 {
+    background-image: url("images/pctg-04.jpeg");
     background-size: cover;
     background-position: center; }
-  .page-recruit-itoya12 .feature12 .pctg-05 {
-    background-image: url("../images/pctg-05.jpeg");
+  .page-id-27 .feature12 .pctg-05 {
+    background-image: url("images/pctg-05.jpeg");
     background-size: cover;
     background-position: center; }
-  .page-recruit-itoya12 .feature12 .pctg-06 {
-    background-image: url("../images/pctg-06.jpeg");
+  .page-id-27 .feature12 .pctg-06 {
+    background-image: url("images/pctg-06.jpeg");
     background-size: cover;
     background-position: center; }
-  .page-recruit-itoya12 .feature12 .pctg-07 {
-    background-image: url("../images/pctg-07.jpeg");
+  .page-id-27 .feature12 .pctg-07 {
+    background-image: url("images/pctg-07.jpeg");
     background-size: cover;
     background-position: center; }
-  .page-recruit-itoya12 .feature12 .pctg-08 {
-    background-image: url("../images/pctg-08.jpeg");
+  .page-id-27 .feature12 .pctg-08 {
+    background-image: url("images/pctg-08.jpeg");
     background-size: cover;
     background-position: center; }
-  .page-recruit-itoya12 .feature12 .pctg-09 {
-    background-image: url("../images/pctg-09.jpeg");
+  .page-id-27 .feature12 .pctg-09 {
+    background-image: url("images/pctg-09.jpeg");
     background-size: cover;
     background-position: center; }
-  .page-recruit-itoya12 .feature12 .pctg-10 {
-    background-image: url("../images/pctg-10.jpeg");
+  .page-id-27 .feature12 .pctg-10 {
+    background-image: url("images/pctg-10.jpeg");
     background-size: cover;
     background-position: center; }
-  .page-recruit-itoya12 .feature12 .pctg-11 {
-    background-image: url("../images/pctg-11.jpeg");
+  .page-id-27 .feature12 .pctg-11 {
+    background-image: url("images/pctg-11.jpeg");
     background-size: cover;
     background-position: center; }
-  .page-recruit-itoya12 .feature12 .pctg-12 {
-    background-image: url("../images/pctg-12.jpeg");
+  .page-id-27 .feature12 .pctg-12 {
+    background-image: url("images/pctg-12.jpeg");
     background-size: cover;
     background-position: center; }
 
-.page-recruit-requirement .pageHeading {
+.page-id-29 .pageHeading {
   width: 100%;
   height: 150px;
   background-color: #F8F7F3;
   text-align: center; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-requirement .pageHeading {
+    .page-id-29 .pageHeading {
       height: 300px; } }
-  .page-recruit-requirement .pageHeading h1 {
+  .page-id-29 .pageHeading h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-size: 2.4rem;
     line-height: 180px;
     color: #411B75; }
     @media screen and (min-width: 1024px) {
-      .page-recruit-requirement .pageHeading h1 {
+      .page-id-29 .pageHeading h1 {
         line-height: 330px;
         font-size: 5rem; } }
 
-.page-recruit-requirement .personal {
+.page-id-29 .personal {
   background-color: #F3EFF8;
   margin: 30px 0;
   padding: 30px 0; }
-  .page-recruit-requirement .personal h2 {
+  .page-id-29 .personal h2 {
     text-align: center;
     font-size: 18px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 3; }
     @media screen and (min-width: 1024px) {
-      .page-recruit-requirement .personal h2 {
+      .page-id-29 .personal h2 {
         font-size: 3rem;
         line-height: 5rem;
         margin: 30px 0; } }
-  .page-recruit-requirement .personal p {
+  .page-id-29 .personal p {
     margin: 0 3%;
     line-height: 1.3;
     text-align: center;
     text-decoration: underline; }
-  .page-recruit-requirement .personal .personalBoxes {
+  .page-id-29 .personal .personalBoxes {
     margin: 0 3%; }
     @media screen and (min-width: 1024px) {
-      .page-recruit-requirement .personal .personalBoxes {
+      .page-id-29 .personal .personalBoxes {
         margin: 0 auto;
         width: 950px; } }
     @media screen and (min-width: 1024px) {
-      .page-recruit-requirement .personal .personalBoxes li:not(:last-child) {
+      .page-id-29 .personal .personalBoxes li:not(:last-child) {
         margin-right: 25px; } }
-  .page-recruit-requirement .personal .personalBox {
+  .page-id-29 .personal .personalBox {
     position: relative;
     height: 70px;
     padding: 10px 0;
     margin: 20px 0;
     background-color: #fff; }
     @media screen and (min-width: 1024px) {
-      .page-recruit-requirement .personal .personalBox {
+      .page-id-29 .personal .personalBox {
         width: 300px;
         height: 150px;
         float: left; } }
-    .page-recruit-requirement .personal .personalBox h3 {
+    .page-id-29 .personal .personalBox h3 {
       position: absolute;
       top: 50%;
       left: 0;
@@ -2140,23 +2269,23 @@ heading
       transform: translateY(-50%);
       line-height: 1.3;
       text-align: center; }
-      .page-recruit-requirement .personal .personalBox h3 span {
+      .page-id-29 .personal .personalBox h3 span {
         display: block;
         margin-bottom: 5px; }
 
-.page-recruit-requirement .jobList h2 {
+.page-id-29 .jobList h2 {
   text-align: center;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 3; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-requirement .jobList h2 {
+    .page-id-29 .jobList h2 {
       font-size: 3rem;
       line-height: 5rem;
       margin: 50px 0 30px; } }
 
-.page-recruit-requirement .jobList h3 {
+.page-id-29 .jobList h3 {
   text-align: center;
   font-size: 16px;
   font-size: 1.6rem;
@@ -2164,26 +2293,26 @@ heading
   line-height: 3;
   color: #411B75;
   margin-bottom: 20px; }
-  .page-recruit-requirement .jobList h3 span {
+  .page-id-29 .jobList h3 span {
     padding-bottom: 5px;
     border-bottom: 2px solid #411B75; }
 
-.page-recruit-requirement .jobList .accordion {
+.page-id-29 .jobList .accordion {
   margin: 0 3% 20px; }
   @media screen and (min-width: 1024px) {
-    .page-recruit-requirement .jobList .accordion {
+    .page-id-29 .jobList .accordion {
       margin: 0 auto 20px;
       width: 800px; } }
-  .page-recruit-requirement .jobList .accordion h4 {
+  .page-id-29 .jobList .accordion h4 {
     background-color: #F3EFF8;
     line-height: 1.6;
     cursor: pointer; }
-  .page-recruit-requirement .jobList .accordion-heading {
+  .page-id-29 .jobList .accordion-heading {
     position: relative;
     padding: 20px 44px 20px 10px;
     border: 1px solid #411B75;
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out; }
-  .page-recruit-requirement .jobList .accordion-mark {
+  .page-id-29 .jobList .accordion-mark {
     position: absolute;
     right: 10px;
     top: 50%;
@@ -2200,22 +2329,22 @@ heading
     font-size: 20px;
     transform: translateY(-50%);
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out; }
-    .page-recruit-requirement .jobList .accordion-mark:before {
+    .page-id-29 .jobList .accordion-mark:before {
       content: "+";
       position: absolute;
       left: 7px;
       top: 50%;
       transform: translateY(-50%); }
-  .page-recruit-requirement .jobList .accordion-body {
+  .page-id-29 .jobList .accordion-body {
     max-height: 0;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     overflow: hidden;
     border: 1px solid #411B75;
     transition: 0.3s ease-in-out, color 0.3s ease-in-out; }
-  .page-recruit-requirement .jobList .accordion .accordion-table-row {
+  .page-id-29 .jobList .accordion .accordion-table-row {
     border-bottom: 1px solid #F3EFF8; }
-  .page-recruit-requirement .jobList .accordion-table-left {
+  .page-id-29 .jobList .accordion-table-left {
     vertical-align: middle;
     width: 18%;
     background-color: #F3EFF8;
@@ -2224,7 +2353,7 @@ heading
     line-height: 2;
     width: 40%;
     padding: 12px 15px; }
-  .page-recruit-requirement .jobList .accordion-table-right {
+  .page-id-29 .jobList .accordion-table-right {
     width: 82%;
     text-align: left;
     padding: 23px 40px;
@@ -2233,33 +2362,76 @@ heading
     letter-spacing: -0.07em;
     width: 60%;
     padding: 12px 20px; }
-  .page-recruit-requirement .jobList .accordion-entryButton {
+  .page-id-29 .jobList .accordion-entryButton {
     background-color: #F3EFF8; }
-    .page-recruit-requirement .jobList .accordion-entryButton a {
+    .page-id-29 .jobList .accordion-entryButton a {
       color: #411B75;
       text-align: center;
       line-height: 60px;
       display: block;
       transition: 0.25s ease-in-out, color 0.25s ease-in-out; }
-      .page-recruit-requirement .jobList .accordion-entryButton a:hover {
+      .page-id-29 .jobList .accordion-entryButton a:hover {
         text-decoration: underline;
         background-color: #411B75;
         color: #fff; }
 
-.page-recruit-requirement .jobList .is-open .accordion-heading {
+.page-id-29 .jobList .is-open .accordion-heading {
   background-color: #411B75;
   color: #fff; }
 
-.page-recruit-requirement .jobList .is-open .accordion-body {
+.page-id-29 .jobList .is-open .accordion-body {
   max-height: 9999px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
 
-.page-recruit-requirement .jobList .is-open .accordion-mark {
+.page-id-29 .jobList .is-open .accordion-mark {
   background-color: #fff; }
 
-.page-recruit-requirement .jobList .is-open .accordion-mark:before {
+.page-id-29 .jobList .is-open .accordion-mark:before {
   content: "-";
   font-size: 30px;
   margin-top: -3px;
   color: #411B75; }
+
+.error404 {
+  position: relative;
+  height: 100vh; }
+  .error404 .footer {
+    position: absolute;
+    bottom: 0; }
+  .error404 .pageHeading {
+    width: 100%;
+    height: 150px;
+    background-color: #F8F7F3;
+    text-align: center; }
+    @media screen and (min-width: 1024px) {
+      .error404 .pageHeading {
+        height: 300px; } }
+    .error404 .pageHeading h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      font-size: 2.4rem;
+      line-height: 180px;
+      color: #411B75; }
+      @media screen and (min-width: 1024px) {
+        .error404 .pageHeading h1 {
+          line-height: 330px;
+          font-size: 5rem; } }
+  .error404 .item {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .error404 .item-icon {
+      margin: 0 auto 20px;
+      width: 100px; }
+      @media screen and (min-width: 1024px) {
+        .error404 .item-icon {
+          margin: 0 auto 10px;
+          width: 80px; } }
+      @media screen and (min-width: 1920) {
+        .error404 .item-icon {
+          margin: 0 auto 40px;
+          width: 150px; } }
+    .error404 .item p {
+      text-align: center; }

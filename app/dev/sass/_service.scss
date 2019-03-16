@@ -1,4 +1,7 @@
-.page-service {
+.page-id-16
+, .page-id-18
+, .page-id-22
+, .page-id-34, {
     .pageHeading {
         width: 100%;
         height: 150px;
@@ -176,121 +179,121 @@
         }
 
         .doutor00 {
-            background-image: url("../images/doutor00.jpg");
+            background-image: url("./images/doutor00.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .doutor01 {
-            background-image: url("../images/doutor01.jpg");
+            background-image: url("./images/doutor01.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .doutor02 {
-            background-image: url("../images/doutor02.jpg");
+            background-image: url("./images/doutor02.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .doutor03 {
-            background-image: url("../images/doutor03.jpg");
+            background-image: url("./images/doutor03.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .doutor04 {
-            background-image: url("../images/doutor04.jpg");
+            background-image: url("./images/doutor04.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .otoya00 {
-            background-image: url("../images/otoya00.jpg");
+            background-image: url("./images/otoya00.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .otoya01 {
-            background-image: url("../images/otoya01.jpg");
+            background-image: url("./images/otoya01.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .otoya02 {
-            background-image: url("../images/otoya02.jpg");
+            background-image: url("./images/otoya02.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .otoya03 {
-            background-image: url("../images/otoya03.jpg");
+            background-image: url("./images/otoya03.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .otoya04 {
-            background-image: url("../images/otoya04.jpg");
+            background-image: url("./images/otoya04.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .pronto00 {
-            background-image: url("../images/pronto00.jpg");
+            background-image: url("./images/pronto00.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .pronto01 {
-            background-image: url("../images/pronto01.jpg");
+            background-image: url("./images/pronto01.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .pronto02 {
-            background-image: url("../images/pronto02.jpg");
+            background-image: url("./images/pronto02.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .pronto03 {
-            background-image: url("../images/pronto03.jpg");
+            background-image: url("./images/pronto03.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .pronto04 {
-            background-image: url("../images/pronto04.jpg");
+            background-image: url("./images/pronto04.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .jittan00 {
-            background-image: url("../images/jittan00.jpg");
+            background-image: url("./images/jittan00.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .jittan01 {
-            background-image: url("../images/jittan01.jpg");
+            background-image: url("./images/jittan01.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .jittan02 {
-            background-image: url("../images/jittan02.jpg");
+            background-image: url("./images/jittan02.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .jittan03 {
-            background-image: url("../images/jittan03.jpg");
+            background-image: url("./images/jittan03.jpg");
             background-size: cover;
             background-position: center;
         }
 
         .jittan04 {
-            background-image: url("../images/jittan04.jpg");
+            background-image: url("./images/jittan04.jpg");
             background-size: cover;
             background-position: center;
         }
@@ -312,6 +315,14 @@
                 position: relative;
                 background-color: #fff;
                 margin: 10px 0;
+                cursor: pointer;
+                transition: all 0.25s ease-in-out;
+                &:hover {
+                    @media screen and (min-width: 1024px) {
+                        transform: scale(1.05);
+                        box-shadow: 0 5px 30px rgba(0,0,0,0.1);
+                    }
+                }
                 @media screen and (min-width: 1024px) {
                     width: 23%;
                     margin: 20px 2.66% 20px 0;
