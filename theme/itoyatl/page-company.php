@@ -5,7 +5,6 @@
                     <div class="pageHeading">
                         <h1>Company</h1>
                     </div>
-                    <div class="breadcrumbs">Home - Company</div>
                     <section class="topMessage">
                         <h2>代表挨拶</h2>
                         <div class="topMessage-image"></div>

@@ -5,7 +5,6 @@
                     <div class="pageHeading">
                         <h1>Recruit</h1>
                     </div>
-                    <div class="breadcrumbs">Home - Interview - A.A</div>
                     <article class="">
                         <div class="discriptionBox">
                             <div class="discriptionBox-image iv1-1"></div>
@@ -20,35 +19,27 @@
                         </div>
                         <section class="question">
                             <div class="questionCols">
-                                <h3 class="questionCols-title">Q1.どんなお仕事をされていますか？</h3>
-                                <p class="questionCols-answer">ドトールコーヒーショップ川崎銀柳街店店長。来店されたお客様に、おいしい商品と安らぎの空間を提供することを仕事としています。</p>
-                            </div>
-                            <div class="questionCols">
-                                <h3 class="questionCols-title">Q2.伊藤屋に入社を決めた理由は何ですか？</h3>
-                                <p class="questionCols-answer">以前から喫茶業で社員として働きたいと思っていました。その中で伊藤屋が、ドトールコーヒーショップを経営されていたからです。</p>
-                            </div>
-                            <div class="questionCols">
-                                <h3 class="questionCols-title">Q3.伊藤屋の良さは何ですか？</h3>
-                                <p class="questionCols-answer">様々なお店の方とお会いする機会があり、皆様優しく接して下さいます。上司の方ともお会いする時間が多いので、アットホームに働ける環境です。</p>
+                                <h3 class="questionCols-title">Q1.伊藤屋に入社を決めた理由は何ですか？</h3>
+                                <p class="questionCols-answer">喫茶業で社員として働きたいと思っており、ドトールコーヒーショップの社員応募をしたのが、フランチャイズ経営をしている伊藤屋でした。前職は製造・管理関連でサービス業の経験がなかった為、果たして自分が飲食業で活躍できるかは未知数でした。入社当初は右も左も解らず、先輩社員、店長から教えられたことをひたすらメモし、自宅に帰りメモを見返してまとめ、また次の日もメモ、まとめの繰り返しでした。</p>
+                                <p class="questionCols-answer">入社半年が過ぎた頃から頭で考えなくても身体が勝手に動くようになり、仕事が楽しくなりました。楽しくなり始めた頃にドトールコーヒーの本部研修を受講するチャンスを頂き、理念、コーヒーの知識、基準のオペレーションの再確認、マネジメントの基礎を習得することができました。そして、少しの自信と大きな不安を抱え、店長として川崎銀柳街店に配属されました。この研修、配属の期間も先輩社員、店長は自分のことを常に気に留めてくださり、悩みや不安を聞いてくれる為に時間を作って頂きました。店長になり1年が経とうとしていますが、その先輩方は今でも食事に行き、アドバイスや指導をして頂いています。</p>
                                 <div class="questionCols-image iv1-2"></div>
                             </div>
                             <div class="questionCols">
-                                <h3 class="questionCols-title">Q4.伊藤屋で働いている時の印象に残るエピソードは何ですか？</h3>
-                                <p class="questionCols-answer">店長として任された当初はすごく不安な気持ちでいっぱいでしたが、周りの先輩方が時間を作ってアドバイスや指導をしてくれました。そのおかげで今の業種にすぐに慣れることが出来ました。今でもその先輩方と食事に行ったりしています。</p>
-                            </div>
-                            <div class="questionCols">
-                                <h3 class="questionCols-title">Q5.これから伊藤屋に入社を希望する方にメッセージをお願いします</h3>
-                                <p class="questionCols-answer">能力に伸び悩んでいる方、接客の仕事が好きな方はもちろんのこと、自分の働きたい環境で全力でサポートしてくれます。<br>向上心のある方と一緒に、笑顔のある職場づくりをしたいです。</p>
+                                <h3 class="questionCols-title">Q2.伊藤屋の良さは何ですか？</h3>
+                                <p class="questionCols-answer">店舗のスタッフは主婦、学生、フリーターと様々な層で構成されており、主婦の方には店舗経験の浅い自分をフォローするアドバイスを頂き、学生のスタッフには自分が伊藤屋に入社してから先輩方にしていただいているように、仕事だけではなく、人生の先輩として、色々な話をし、アドバイスが出来るように接しています。</p>
+                                <p class="questionCols-answer">そうすることによって、スタッフの笑顔が増え、活気が生まれ、店全体の雰囲気が良くなったね！と本部のスーパーバイザーさんからもお褒めの言葉を頂きました。そして、社内には事業部での会議、親睦会、全社会議等様々なお店の社員さんとお会いする機会があり、皆様優しく接して下さいます。アルバイト採用、教育の仕方、その時の悩みなど相談、助言をもらい、自店舗での取り組みに役立てています。本社が川崎にあり、上司、社長ともお会いする時間が多いので、会社との壁を感じることなく、アットホームに働ける環境です。</p>
                                 <div class="questionCols-image iv1-3"></div>
                             </div>
-
+                            <div class="questionCols">
+                                <h3 class="questionCols-title">Q3.これから伊藤屋に入社を希望する方にメッセージをお願いします</h3>
+                                <p class="questionCols-answer">社員は会社の歯車の一部、などの考え方とは真逆の、社員が会社を支え、社員が個々の力を発揮する職場。のイメージが強いのが伊藤屋かと思います。能力に伸び悩んでいる方、接客の仕事が好きな方はもちろんのこと、自分の働きたい環境で全力で会社がサポートしてくれます。向上心のある方と一緒に、目標に向かって、笑顔のある職場づくりをしたいです。</p>
+                            </div>
                         </section>
-
                     </article>
 
                     <section class="recruitFooter">
                         <div class="moreButton">
-                            <a href="https://goo.gl/forms/6nPqlzJf4qISXzz12">応募する</a>
+                            <a href="https://goo.gl/forms/6nPqlzJf4qISXzz12" target="_blank">応募する</a>
                         </div>
                         <div class="recruitFooter-title">
                             Recruit

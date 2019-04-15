@@ -5,7 +5,6 @@
                     <div class="pageHeading">
                         <h1>Service</h1>
                     </div>
-                    <div class="breadcrumbs">Home - Service</div>
                     <article class="serviceContents">
 
 
@@ -54,7 +53,7 @@
                                 </li>
                                 <li>
                                     <a href="https://itoya1889.com/service-pronto/">
-                                    PRONTO<span class="arw"></span>
+                                    CAFFÈ & BAR PRONTO<span class="arw"></span>
                                     </a>
                                 </li>
                                 <li>

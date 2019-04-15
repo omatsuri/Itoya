@@ -13,7 +13,7 @@
                         <ul>
                             <li class="menu-item-in"><a href="https://itoya1889.com/service-doutor/">ドトールコーヒーショップ</a></li>
                             <li class="menu-item-in"><a href="https://itoya1889.com/service-otoya/">大戸屋ごはん処</a></li>
-                            <li class="menu-item-in"><a href="https://itoya1889.com/service-pronto/">PRONTO</a></li>
+                            <li class="menu-item-in"><a href="https://itoya1889.com/service-pronto/">CAFFÈ & BAR PRONTO</a></li>
                             <li class="menu-item-in"><a href="https://itoya1889.com/service-jittan/">焼肉&BAR 十炭</a></li>
                         </ul>
                     </li>

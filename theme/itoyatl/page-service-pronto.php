@@ -5,12 +5,11 @@
                     <div class="pageHeading">
                         <h1>Service</h1>
                     </div>
-                    <div class="breadcrumbs">Home - Service</div>
                     <article class="serviceContents">
 
                         <section class="wrapper-top">
                             <div class="wrapper-top-left">
-                                <h2>PRONTO</h2>
+                                <h2>CAFFÈ & BAR PRONTO</h2>
                                 <div class="serviceContents-logo pronto00"></div>
                                 <p class="serviceContents-text">プロントが目指しているのは、イタリアの「バール」、イギリスの「パブ」に見られるような、お客様との親密で活気あるお付き合いです。昼間はカフェとしての、夜はバーとしての顔を持ち、お客様にとってなじみの深い憩いの場を提供するための努力を重ねています。
                                 </p>
@@ -54,7 +53,7 @@
                                 </li>
                                 <li>
                                     <a href="https://itoya1889.com/service-pronto/">
-                                    PRONTO<span class="arw"></span>
+                                    CAFFÈ & BAR PRONTO<span class="arw"></span>
                                     </a>
                                 </li>
                                 <li>

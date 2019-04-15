@@ -1908,7 +1908,7 @@ heading
   margin: 40px 3% 200px; }
   @media screen and (min-width: 1024px) {
     .page-id-31 .discriptionBox, .page-id-41 .discriptionBox, .page-id-43 .discriptionBox, .page-id-45 .discriptionBox, .page-id-48 .discriptionBox {
-      margin: 0 auto 250px;
+      margin: 40px auto 250px;
       width: 700px; } }
   .page-id-31 .discriptionBox-image, .page-id-41 .discriptionBox-image, .page-id-43 .discriptionBox-image, .page-id-45 .discriptionBox-image, .page-id-48 .discriptionBox-image {
     width: 100%;
@@ -1962,8 +1962,10 @@ heading
 
 .page-id-31 .questionCols-answer, .page-id-41 .questionCols-answer, .page-id-43 .questionCols-answer, .page-id-45 .questionCols-answer, .page-id-48 .questionCols-answer {
   margin: 20px 3%;
-  line-height: 20px;
-  line-height: 2rem; }
+  line-height: 2; }
+  @media screen and (min-width: 1024px) {
+    .page-id-31 .questionCols-answer, .page-id-41 .questionCols-answer, .page-id-43 .questionCols-answer, .page-id-45 .questionCols-answer, .page-id-48 .questionCols-answer {
+      line-height: 2.4; } }
 
 .page-id-31 .questionCols-image, .page-id-41 .questionCols-image, .page-id-43 .questionCols-image, .page-id-45 .questionCols-image, .page-id-48 .questionCols-image {
   width: 100%;

@@ -47,8 +47,8 @@ jQuery(function() {
 
 // 募集要項 アコーディオン
 jQuery(function() {
-    jQuery('.accordion').click(function() {
-        jQuery(this).toggleClass('is-open');
+    jQuery('.accordion-heading').click(function() {
+        jQuery(this).parent('.accordion').toggleClass('is-open');
     })
 });
 

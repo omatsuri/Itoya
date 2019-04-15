@@ -135,7 +135,7 @@
         position: relative;
         margin: 40px 3% 200px;
         @media screen and (min-width: 1024px) {
-            margin: 0 auto 250px;
+            margin: 40px auto 250px;
             width: 700px;
         }
 
@@ -201,7 +201,10 @@
 
             &-answer {
                 margin: 20px 3%;
-                line-height: 2rem;
+                line-height: 2;
+                @media screen and (min-width: 1024px) {
+                    line-height: 2.4;
+                }
             }
 
             &-image {

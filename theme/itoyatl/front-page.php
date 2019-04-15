@@ -24,7 +24,7 @@
                             <span class="service-headMain">Service</span>
                             <span class="service-headSub">サービス</span>
                         </h2>
-                        <p class="service-text">伊藤屋はドトールコーヒーショップ、大戸屋ごはん処、PRONTO等のフランチャイズ事業、「焼肉＆BAR 十炭」のオリジナルブランドの運営をしています。</p>
+                        <p class="service-text">伊藤屋はドトールコーヒーショップ、大戸屋ごはん処、CAFFÈ & BAR PRONTO等のフランチャイズ事業、「焼肉＆BAR 十炭」のオリジナルブランドの運営をしています。</p>
                         <ul>
                             <li class="service-list">
                                 <a href="https://itoya1889.com/service-doutor/">
@@ -41,7 +41,7 @@
                             <li class="service-list">
                                 <a href="https://itoya1889.com/service-pronto/">
                                 <img src="<?php bloginfo('template_directory'); ?>/images/service-3.jpg" alt="">
-                                <p>PRONTO</p>
+                                <p>CAFFÈ & BAR PRONTO</p>
                                 </a>
                             </li>
                             <li class="service-list">
@@ -58,7 +58,7 @@
                             <span class="news-headSub">お知らせ</span>
                         </h2>
                         <ul>
-                            <?php query_posts('posts_per_page=-1'); ?>
+                            <?php query_posts('posts_per_page=5'); ?>
                             <?php if(have_posts()): while(have_posts()):the_post(); ?>
                             <li>
                                 <a href="<?php the_permalink(); ?>">

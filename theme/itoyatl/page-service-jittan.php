@@ -5,14 +5,13 @@
                     <div class="pageHeading">
                         <h1>Service</h1>
                     </div>
-                    <div class="breadcrumbs">Home - Service</div>
                     <article class="serviceContents">
 
                         <section class="wrapper-top">
                             <div class="wrapper-top-left">
                                 <h2>焼肉&BAR 十炭</h2>
                                 <div class="serviceContents-logo jittan00"></div>
-                                <p class="serviceContents-text">伊藤屋がオリジナルで運営する焼肉＆BAR 十炭（ジッタン）。2001年の創業依頼、川崎では珍しい個室で焼肉を堪能できるお店。【美味しいをずっと】、【新しいをもっと】を理念に、ブランド牛にこだわらず、A５ランクのお肉を厳選して提供してきました。
+                                <p class="serviceContents-text">伊藤屋がオリジナルで運営する焼肉＆BAR 十炭（ジッタン）。2001年の創業以来、川崎では珍しい個室で焼肉を堪能できるお店。【美味しいをずっと】、【新しいをもっと】を理念に、ブランド牛にこだわらず、A５ランクのお肉を厳選して提供してきました。
                                 </p>
                             </div>
                             <div class="wrapper-top-right">
@@ -53,7 +52,7 @@
                                 </li>
                                 <li>
                                     <a href="https://itoya1889.com/service-pronto/">
-                                    PRONTO<span class="arw"></span>
+                                    CAFFÈ & BAR PRONTO<span class="arw"></span>
                                     </a>
                                 </li>
                                 <li>

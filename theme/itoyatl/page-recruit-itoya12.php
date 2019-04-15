@@ -5,7 +5,6 @@
                     <div class="pageHeading">
                         <h1>Recruit</h1>
                     </div>
-                    <div class="breadcrumbs">Home - Itoya12</div>
                     <div class="contentDiscription">
                         <h2 class="contentDiscription-title">伊藤屋を知る12のコト</h2>
                         <p class="contentDiscription-text">
@@ -56,13 +55,13 @@
                                 <div class="feature12-no">5</div>
                                 <div class="feature12-image pctg-05"></div>
                                 <h3 class="feature12-title">選べる働き方</h3>
-                                <p class="feature12-text">①総合職（月6日休み）、②一般職（月8日休み）、③時間限定社員（週8回休み）の自身のキャリアプラン、生活に合わせた雇用形態を用意しています。</p>
+                                <p class="feature12-text">①総合職（月8日休み）、②一般職（月8日休み）、③時間限定社員（週8回休み）の自身のキャリアプラン、生活に合わせた雇用形態を用意しています。</p>
                             </li>
                             <li>
                                 <div class="feature12-no">6</div>
                                 <div class="feature12-image pctg-06"></div>
                                 <h3 class="feature12-title">有給休暇</h3>
-                                <p class="feature12-text">有給休暇１２日間目標、（最大消化者２２日間）有給休暇が取れる店舗間ヘルプ活動の強化中です。</p>
+                                <p class="feature12-text">有給休暇12日間目標、（最大消化者22日間）有給休暇が取れる店舗間ヘルプ活動の強化中です。</p>
                             </li>
                             <li>
                                 <div class="feature12-no">7</div>
@@ -104,7 +103,7 @@
                     </section>
                     <section class="recruitFooter">
                         <div class="moreButton">
-                            <a href="https://goo.gl/forms/6nPqlzJf4qISXzz12">応募する</a>
+                            <a href="https://goo.gl/forms/6nPqlzJf4qISXzz12" target="_blank">応募する</a>
                         </div>
                         <div class="recruitFooter-title">
                             Recruit

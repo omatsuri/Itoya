@@ -5,13 +5,12 @@
                     <div class="pageHeading">
                         <h1>Service</h1>
                     </div>
-                    <div class="breadcrumbs">Home - Service</div>
                     <article class="serviceContents">
                         <section class="wrapper-top">
                             <div class="wrapper-top-left">
                                 <h2>ドトールコーヒーショップ</h2>
                                 <div class="serviceContents-logo doutor00"></div>
-                                <p class="serviceContents-text">一杯のおいしいコーヒーを通して、お客様にやすらぎと活力を提供する。を基本理念に、川崎を中心にお客様に親しまれ、多くのスタッフに支えられて昨年ドトールコーヒーショップを運営してから30年が経過しました。
+                                <p class="serviceContents-text">「一杯のおいしいコーヒーを通して、お客様にやすらぎと活力を提供する。」を基本理念に川崎を中心にお客様に親しまれ、多くのスタッフに支えられて2018年でドトールコーヒーショップを運営してから30年が経過しました。
                                 </p>
                             </div>
                             <div class="wrapper-top-right">
@@ -52,7 +51,7 @@
                                 </li>
                                 <li>
                                     <a href="https://itoya1889.com/service-pronto/">
-                                    PRONTO<span class="arw"></span>
+                                    CAFFÈ & BAR PRONTO<span class="arw"></span>
                                     </a>
                                 </li>
                                 <li>

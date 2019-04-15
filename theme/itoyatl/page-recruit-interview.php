@@ -5,7 +5,6 @@
                     <div class="pageHeading">
                         <h1>Recruit</h1>
                     </div>
-                    <div class="breadcrumbs">Home - Interview</div>
                     <div class="content-bg">
 
                         <div class="contentDiscription">
@@ -70,7 +69,7 @@
                     </div>
                     <section class="recruitFooter">
                         <div class="moreButton">
-                            <a href="https://goo.gl/forms/6nPqlzJf4qISXzz12">応募する</a>
+                            <a href="https://goo.gl/forms/6nPqlzJf4qISXzz12" target="_blank">応募する</a>
                         </div>
                         <div class="recruitFooter-title">
                             Recruit

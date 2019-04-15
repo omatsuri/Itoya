@@ -5,7 +5,6 @@
                     <div class="pageHeading">
                         <h1>News</h1>
                     </div>
-                    <div class="breadcrumbs">Home - News</div>
                     <section class="newsContents">
                         <h2>お知らせ一覧</h2>
                         <?php if(have_posts()): while(have_posts()):the_post(); ?>
