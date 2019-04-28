@@ -15,13 +15,13 @@
               gtag('config', 'UA-137618730-1');
             </script>
             <meta charset="UTF-8">
-            <title>伊藤屋</title>
-            <meta name="description" content="伊藤屋の公式ホームページです">
+            <title>株式会社伊藤屋｜都内・近郊で15店舗飲食店を展開</title>
+            <meta name="description" content="株式会社伊藤屋は、東京駅・品川駅・赤坂見付駅・赤羽駅・川崎駅などにPRONTO・ドドール・大戸屋といった飲食店をFC経営している会社です。伊藤屋では、様々な働き方を検討し、正社員採用だけでなく時間帯限定社員という採用も取り入れ、社員が働く環境の改善に取り組んでいます。">
             <meta name="keywords" content="">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport"
                   content="width=device-width, minimum-scale=1, maximum-scale=10,initial-scale=1.0">
-            <meta property="og:title" content="伊藤屋">
+            <meta property="og:title" content="株式会社伊藤屋｜都内・近郊で15店舗飲食店を展開">
             <meta property="og:type" content="website">
             <meta property="og:url" content="https://itoya1889.com">
             <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/images/ogimage.jpg">
